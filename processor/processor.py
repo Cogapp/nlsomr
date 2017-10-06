@@ -1,10 +1,24 @@
-var audiveris_cli_path = "/Users/stephenn/Documents/workspace/audiveris/build/distributions/Audiveris/bin"
+import os
+import sys
 
-var inputfolder = "/Users/stephenn/Documents/workspace/nlsomr/images"
-var outputfolder = "/Users/stephenn/Documents/workspace/nlsomr/xml_out
+audiveris_cli_path = "/Users/stephenn/Documents/workspace/audiveris/build/distributions/Audiveris/bin/"
 
-var inputfile = "91386487/91386487.jpg"
+inputfolder = "/Users/stephenn/Documents/workspace/nlsomr/images/91386487/"
+outputfolder = "/Users/stephenn/Documents/workspace/nlsomr/xml_out"
+
+inputfile = "91386960.jpg"
+workingfile = "%stmp.jpg" % (inputfolder)
 
 
-path\to\bin\Audiveris -batch -export -output "my output folder" -- "my file.pdf"
+if __name__ == '__main__':
+    #scan input dir
 
+    #recursive(or at least 2 stage ) loop
+
+    #upscale image with imagemagick
+    print workingfile 
+    #print "convert %s%s" % (inputfolder, inputfile)
+    os.system("convert %s%s   -resize 200%%  %s" % (inputfolder, inputfile, workingfile))
+
+    #run omr
+    os.system("%saudiveris -batch -export -output \"%s\" -- \"%s\"" % (audiveris_cli_path, outputfolder, workingfile))
