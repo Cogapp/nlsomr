@@ -35,7 +35,8 @@ def get_image_for_page(book_id, page_id):
             large_img = small_img.replace('dcn3/', 'dcn30/')
             large_img = large_img.replace('3.jpg', '30.jpg')
             print("found large image %s" % large_img, file=sys.stderr)
-            # create directory if necessary
+
+            # create large directory if necessary
             directory = '../images/%s' % book_id
             if not os.path.exists(directory):
                 os.makedirs(directory)
@@ -43,6 +44,19 @@ def get_image_for_page(book_id, page_id):
             file_name = '../images/%s/%s.jpg' % (book_id, page_id)
             with urllib.request.urlopen(large_img) as response, open(file_name, 'wb') as out_file:
                 data = response.read() # a `bytes` object
+                out_file.write(data)
+
+            thumb_img = small_img.replace('dcn3/', 'dcn20/')
+            thumb_img = thumb_img.replace('3.jpg', '20.jpg')
+
+            # create thumb directory if necessary
+            directory = '../searchkit/public/images/%s' % book_id
+            if not os.path.exists(directory):
+                os.makedirs(directory)
+            # write image
+            file_name = '../searchkit/public/images/%s/%s.jpg' % (book_id, page_id)
+            with urllib.request.urlopen(thumb_img) as response, open(file_name, 'wb') as out_file:
+                data = response.read()  # a `bytes` object
                 out_file.write(data)
 
 if __name__ == '__main__':
