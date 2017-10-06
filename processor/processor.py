@@ -32,4 +32,4 @@ if __name__ == '__main__':
                             os.system("unzip -o -d %s%s/%s/%s_extract %s%s/%s/%s" % (outputFolder, book, os.path.splitext(inputfile)[0],os.path.splitext(outputItem)[0], outputFolder, book, os.path.splitext(inputfile)[0],outputItem))
                             for extractFile in listdir(outputFolder + book +"/"+ os.path.splitext(inputfile)[0]+"/"+os.path.splitext(outputItem)[0]+"_extract"):
                                 if os.path.splitext(extractFile)[1] == ".xml":
-                                    os.system("%smscore %s%s/%s/%s_extract/%s -o %s$s.wav" (mscore_path, outputFolder, book, os.path.splitext(inputfile)[0],os.path.splitext(outputItem)[0],extractFile, wavFolder, os.path.splitext(extractFile)[0]))
+                                    os.system("%smscore %s%s/%s/%s_extract/%s -o %s%s.wav" % (mscore_path, outputFolder, book, os.path.splitext(inputfile)[0],os.path.splitext(outputItem)[0],extractFile, wavFolder, os.path.splitext(extractFile)[0]))
