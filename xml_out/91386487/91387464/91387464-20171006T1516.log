@@ -1,0 +1,158 @@
+2017-10-06 15:16:10,855 INFO [91387464]            BasicBook.java:427  | 1 sheet in /Users/stephenn/Documents/workspace/nlsomr/working/91387464.jpg
+2017-10-06 15:16:11,009 INFO []            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:16:11,009 INFO []            BasicBook.java:1355 | Book stored as /Users/stephenn/Documents/workspace/nlsomr/xml_out/91386487/91387464/91387464.omr
+2017-10-06 15:16:11,014 INFO []            BasicBook.java:996  | Book reaching PAGE on sheets:[#1]
+2017-10-06 15:16:11,016 INFO [91387464]       StepMonitoring.java:96   | LOAD
+2017-10-06 15:16:11,185 INFO [91387464]            BasicBook.java:911  | Loaded image 1 2000x3056 from /Users/stephenn/Documents/workspace/nlsomr/working/91387464.jpg
+2017-10-06 15:16:11,189 INFO [91387464]            ImageUtil.java:82   | Converting max RGB to gray ...
+2017-10-06 15:16:11,458 INFO [91387464]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:16:11,774 INFO [91387464]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:16:11,776 INFO [91387464]       StepMonitoring.java:96   | BINARY
+2017-10-06 15:16:12,384 INFO [91387464]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:16:12,709 INFO [91387464]              Picture.java:786  | Stored /sheet#1/BINARY.xml
+2017-10-06 15:16:12,711 INFO [91387464]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:16:12,712 INFO [91387464]       StepMonitoring.java:96   | SCALE
+2017-10-06 15:16:12,758 INFO [91387464]            ScaleStep.java:87   | Scale{line(3,4,5) interline(16,17,17) beam(13)}
+2017-10-06 15:16:12,763 INFO [91387464]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:16:12,766 INFO [91387464]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:16:12,769 INFO [91387464]       StepMonitoring.java:96   | GRID
+2017-10-06 15:16:13,787 INFO [91387464]       LinesRetriever.java:442  | Global slope: 0.00109
+2017-10-06 15:16:13,883 INFO [91387464]    ClustersRetriever.java:241  | Retrieved line clusters: 12 of size: 5 with interline: (16,17,17)
+2017-10-06 15:16:14,446 INFO [91387464]            PeakGraph.java:181  | Systems: #1[1, 2] #2[3, 4] #3[5, 6] #4[7, 8] #5[9, 10] #6[11, 12]
+2017-10-06 15:16:15,433 INFO [91387464]        SystemManager.java:626  | Indentation detected for system#1
+2017-10-06 15:16:15,433 INFO [91387464]        SystemManager.java:626  | Indentation detected for system#5
+2017-10-06 15:16:15,434 INFO [91387464]        SystemManager.java:671  | 2 pages found in sheet
+2017-10-06 15:16:15,434 INFO [91387464]        SystemManager.java:709  | Page #1: 1 part along 4 systems
+2017-10-06 15:16:15,434 INFO [91387464]        SystemManager.java:709  | Page #2: 1 part along 2 systems
+2017-10-06 15:16:15,438 INFO [91387464]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:16:15,641 INFO [91387464]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:16:15,643 INFO [91387464]       StepMonitoring.java:96   | HEADERS
+2017-10-06 15:16:16,043 INFO []          Nd4jBackend.java:194  | Loaded [CpuBackend] backend
+2017-10-06 15:16:16,102 INFO []      NativeOpsHolder.java:49   | Number of threads used for NativeOps: 2
+2017-10-06 15:16:16,566 INFO [] DefaultOpExecutioner.java:544  | Backend used: [CPU]; OS: [Mac OS X]
+2017-10-06 15:16:16,567 INFO [] DefaultOpExecutioner.java:545  | Cores: [4]; Memory: [3.6GB];
+2017-10-06 15:16:16,567 INFO [] DefaultOpExecutioner.java:546  | Blas vendor: [OPENBLAS]
+2017-10-06 15:16:16,620 INFO []   AbstractClassifier.java:332  | Classifier data loaded from default uri jar:file:/Users/stephenn/Documents/workspace/audiveris/build/distributions/Audiveris/lib/audiveris.jar!/res/basic-classifier.zip
+2017-10-06 15:16:18,139 WARN [91387464]          ClefBuilder.java:560  | Staff#2 no header clef.
+2017-10-06 15:16:19,014 INFO [91387464]           KeyBuilder.java:746  | Staff#6 key slice#4 pitch adjusted from 0.5 to 0
+2017-10-06 15:16:19,641 INFO []   AbstractClassifier.java:332  | Classifier data loaded from default uri jar:file:/Users/stephenn/Documents/workspace/audiveris/build/distributions/Audiveris/lib/audiveris.jar!/res/deep-classifier.zip
+2017-10-06 15:16:19,663 WARN [91387464]          ClefBuilder.java:560  | Staff#12 no header clef.
+2017-10-06 15:16:19,706 INFO [91387464]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:16:20,041 INFO [91387464]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:16:20,044 INFO [91387464]       StepMonitoring.java:96   | STEM_SEEDS
+2017-10-06 15:16:20,141 INFO [91387464]        StemSeedsStep.java:91   | stem(3 max:4)
+2017-10-06 15:16:20,276 INFO [91387464]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:16:20,598 INFO [91387464]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:16:20,601 INFO [91387464]       StepMonitoring.java:96   | BEAMS
+2017-10-06 15:16:25,763 INFO [91387464]            BeamsStep.java:89   | BeamDistance{count:49 mean:14.94 stdDev:2.32}
+2017-10-06 15:16:25,766 INFO [91387464]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:16:25,859 INFO [91387464]              Picture.java:786  | Stored /sheet#1/HEAD_SPOTS.xml
+2017-10-06 15:16:26,363 INFO [91387464]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:16:26,366 INFO [91387464]       StepMonitoring.java:96   | LEDGERS
+2017-10-06 15:16:27,101 INFO [91387464]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:16:27,650 INFO [91387464]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:16:27,652 INFO [91387464]       StepMonitoring.java:96   | HEADS
+2017-10-06 15:16:30,242 INFO [91387464]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:16:31,381 INFO [91387464]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:16:31,384 INFO [91387464]       StepMonitoring.java:96   | STEMS
+2017-10-06 15:16:33,106 INFO [91387464]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:16:34,413 INFO [91387464]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:16:34,415 INFO [91387464]       StepMonitoring.java:96   | REDUCTION
+2017-10-06 15:16:35,017 INFO [91387464]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:16:35,850 INFO [91387464]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:16:35,853 INFO [91387464]       StepMonitoring.java:96   | CUE_BEAMS
+2017-10-06 15:16:35,857 INFO [91387464]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:16:36,647 INFO [91387464]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:16:36,649 INFO [91387464]       StepMonitoring.java:96   | TEXTS
+2017-10-06 15:16:38,221 INFO [91387464]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:16:39,062 INFO [91387464]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:16:39,065 INFO [91387464]       StepMonitoring.java:96   | MEASURES
+2017-10-06 15:16:39,069 INFO [91387464]                 Page.java:210  | 16 raw measures: [4 in system#1, 4 in system#2, 4 in system#3, 4 in system#4]
+2017-10-06 15:16:39,070 INFO [91387464]                 Page.java:210  | 9 raw measures: [5 in system#5, 4 in system#6]
+2017-10-06 15:16:39,071 INFO [91387464]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:16:39,912 INFO [91387464]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:16:39,914 INFO [91387464]       StepMonitoring.java:96   | CHORDS
+2017-10-06 15:16:39,933 INFO [91387464]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:16:40,804 INFO [91387464]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:16:40,807 INFO [91387464]       StepMonitoring.java:96   | CURVES
+2017-10-06 15:16:42,418 INFO [91387464]         SlursBuilder.java:157  | Slurs: 27
+2017-10-06 15:16:42,444 INFO [91387464]      SegmentsBuilder.java:113  | Segments: 22
+2017-10-06 15:16:42,450 INFO [91387464]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:16:43,674 INFO [91387464]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:16:43,676 INFO [91387464]       StepMonitoring.java:96   | SYMBOLS
+2017-10-06 15:16:45,758 INFO [91387464]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:16:47,265 INFO [91387464]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:16:47,268 INFO [91387464]       StepMonitoring.java:96   | LINKS
+2017-10-06 15:16:47,297 INFO [91387464]        SymbolsLinker.java:323  | No chord above direction SentenceInter{#5732(0.650) s:9 BS-45 Direction} 106
+2017-10-06 15:16:47,298 INFO [91387464]        SymbolsLinker.java:306  | No measure stack for direction SentenceInter{#5741(0.591) s:9 BS-37 Direction} J 63.
+2017-10-06 15:16:47,321 INFO [91387464]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:16:48,835 INFO [91387464]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:16:48,838 INFO [91387464]       StepMonitoring.java:96   | RHYTHMS
+2017-10-06 15:16:48,877 INFO [91387464]         SlotsBuilder.java:434  | Stack#12 endless loop detected
+2017-10-06 15:16:48,881 INFO [91387464]         SlotsBuilder.java:399  | Stack#14 suspicious Slot{#2 xOffset=157 timeOffset=1/8 incomings=[#5888]}
+2017-10-06 15:16:48,889 INFO [91387464]           PageRhythm.java:314  | Range{1-16 ts:2/4} Durations avgGuess:1/2 topGuess:1/2 avgValue:0.50 stacks:16 voices:39 Histogram{1/8-5/8 size:6 [1/8=1 3/16=1 1/4=3 3/8=1 1/2=32 5/8=1]}
+2017-10-06 15:16:48,906 INFO [91387464]                Voice.java:257  | S3 MeasureStack#9 Voice #2 too long 1/8
+2017-10-06 15:16:48,909 INFO [91387464]           StackTuner.java:92   | S3 MeasureStack#9 no correct rhythm
+2017-10-06 15:16:48,913 INFO [91387464]         SlotsBuilder.java:434  | Stack#12 endless loop detected
+2017-10-06 15:16:48,918 INFO [91387464]         SlotsBuilder.java:427  | S4 MeasureStack#14 Slot{#4 xOffset=200 timeOffset=3/16 incomings=[#5889] SUSPICIOUS}
+2017-10-06 15:16:48,945 INFO [91387464]         SlotsBuilder.java:399  | Stack#7 suspicious Slot{#2 xOffset=155 timeOffset=1/8 incomings=[#5972#5992]}
+2017-10-06 15:16:48,947 INFO [91387464]           PageRhythm.java:314  | Range{1-9 ts:2/4} Durations avgGuess:1/2 topGuess:1/2 avgValue:0.51 stacks:9 voices:24 Histogram{1/8-5/8 size:4 [1/8=3 1/4=5 1/2=15 5/8=1]}
+2017-10-06 15:16:48,953 INFO [91387464]                Voice.java:257  | S5 MeasureStack#4 Voice #2 too long 1/8
+2017-10-06 15:16:48,954 INFO [91387464]           StackTuner.java:92   | S5 MeasureStack#4 no correct rhythm
+2017-10-06 15:16:48,962 INFO [91387464]         SlotsBuilder.java:427  | S6 MeasureStack#7 Slot{#5 xOffset=270 timeOffset=1/4 incomings=[#5975#5993] SUSPICIOUS}
+2017-10-06 15:16:48,962 INFO [91387464]         SlotsBuilder.java:427  | S6 MeasureStack#7 Slot{#7 xOffset=362 timeOffset=3/8 incomings=[#5977#5994] SUSPICIOUS}
+2017-10-06 15:16:48,966 INFO [91387464]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:16:50,550 INFO [91387464]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:16:50,553 INFO [91387464]       StepMonitoring.java:96   | PAGE
+2017-10-06 15:16:50,558 INFO [91387464]                Voice.java:257  | S3 MeasureStack#9 Voice #2 too long 1/8
+2017-10-06 15:16:50,559 INFO [91387464]                 Part.java:267  | Could not left-connect slur#6009
+2017-10-06 15:16:50,560 INFO [91387464]                Voice.java:257  | S5 MeasureStack#4 Voice #2 too long 1/8
+2017-10-06 15:16:50,561 INFO [91387464]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:16:52,095 INFO [91387464]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:16:52,097 INFO [91387464]            BasicStub.java:723  | Sheet{91387464} disposed
+2017-10-06 15:16:53,233 INFO [91387464]            BasicStub.java:449  | Loaded /sheet#1/sheet#1.xml
+2017-10-06 15:16:53,235 INFO [91387464]            BasicBook.java:1133 | Scores built: 2
+2017-10-06 15:16:54,219 WARN [91387464]      PartwiseBuilder.java:1379 | Error visiting null
+java.lang.NullPointerException: null
+	at org.audiveris.omr.score.PartwiseBuilder.processKey(PartwiseBuilder.java:1344)
+	at org.audiveris.omr.score.PartwiseBuilder.processKeys(PartwiseBuilder.java:1407)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:1575)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:1988)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2528)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1433)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2483)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2017)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2195)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:307)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:117)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:91)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:589)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:785)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:344)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+2017-10-06 15:16:54,313 INFO [91387464]        ScoreExporter.java:93   | Score 91387464.mvt1 exported to /Users/stephenn/Documents/workspace/nlsomr/xml_out/91386487/91387464/91387464.mvt1.mxl
+2017-10-06 15:16:54,321 WARN [91387464]      PartwiseBuilder.java:1379 | Error visiting null
+java.lang.NullPointerException: null
+	at org.audiveris.omr.score.PartwiseBuilder.processKey(PartwiseBuilder.java:1344)
+	at org.audiveris.omr.score.PartwiseBuilder.processKeys(PartwiseBuilder.java:1407)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:1575)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:1988)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2528)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1433)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2483)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2017)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2195)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:307)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:117)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:91)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:589)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:785)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:344)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+2017-10-06 15:16:54,350 INFO [91387464]        ScoreExporter.java:93   | Score 91387464.mvt2 exported to /Users/stephenn/Documents/workspace/nlsomr/xml_out/91386487/91387464/91387464.mvt2.mxl
+2017-10-06 15:16:54,515 INFO [91387464]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:16:54,516 INFO [91387464]            BasicBook.java:1355 | Book stored as /Users/stephenn/Documents/workspace/nlsomr/xml_out/91386487/91387464/91387464.omr

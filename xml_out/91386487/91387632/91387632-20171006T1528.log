@@ -1,0 +1,66 @@
+2017-10-06 15:28:41,664 INFO [91387632]            BasicBook.java:427  | 1 sheet in /Users/stephenn/Documents/workspace/nlsomr/working/91387632.jpg
+2017-10-06 15:28:41,806 INFO []            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:28:41,806 INFO []            BasicBook.java:1355 | Book stored as /Users/stephenn/Documents/workspace/nlsomr/xml_out/91386487/91387632/91387632.omr
+2017-10-06 15:28:41,815 INFO []            BasicBook.java:996  | Book reaching PAGE on sheets:[#1]
+2017-10-06 15:28:41,818 INFO [91387632]       StepMonitoring.java:96   | LOAD
+2017-10-06 15:28:41,965 INFO [91387632]            BasicBook.java:911  | Loaded image 1 2000x3056 from /Users/stephenn/Documents/workspace/nlsomr/working/91387632.jpg
+2017-10-06 15:28:41,970 INFO [91387632]            ImageUtil.java:82   | Converting max RGB to gray ...
+2017-10-06 15:28:42,203 INFO [91387632]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:28:42,579 INFO [91387632]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:28:42,581 INFO [91387632]       StepMonitoring.java:96   | BINARY
+2017-10-06 15:28:43,159 INFO [91387632]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:28:43,472 INFO [91387632]              Picture.java:786  | Stored /sheet#1/BINARY.xml
+2017-10-06 15:28:43,474 INFO [91387632]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:28:43,476 INFO [91387632]       StepMonitoring.java:96   | SCALE
+2017-10-06 15:28:43,520 INFO [91387632]         ScaleBuilder.java:229  | No beam key found, guessed value 10
+2017-10-06 15:28:43,520 INFO [91387632]            ScaleStep.java:87   | Scale{line(4,5,6) interline(16,17,17) beam(10 extra)}
+2017-10-06 15:28:43,523 INFO [91387632]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:28:43,525 INFO [91387632]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:28:43,530 INFO [91387632]       StepMonitoring.java:96   | GRID
+2017-10-06 15:28:44,563 INFO [91387632]       LinesRetriever.java:442  | Global slope: 0.00000
+2017-10-06 15:28:44,650 INFO [91387632]    ClustersRetriever.java:241  | Retrieved line clusters: 12 of size: 5 with interline: (16,17,17)
+2017-10-06 15:28:45,471 INFO [91387632]            PeakGraph.java:181  | Systems: #1[1, 2] #2[3, 4] #3[5, 6] #4[7, 8] #5[9, 10] #6[11, 12]
+2017-10-06 15:28:46,660 INFO [91387632]        SystemManager.java:626  | Indentation detected for system#1
+2017-10-06 15:28:46,660 INFO [91387632]        SystemManager.java:626  | Indentation detected for system#5
+2017-10-06 15:28:46,661 INFO [91387632]        SystemManager.java:671  | 2 pages found in sheet
+2017-10-06 15:28:46,662 INFO [91387632]        SystemManager.java:709  | Page #1: 1 part along 4 systems
+2017-10-06 15:28:46,662 INFO [91387632]        SystemManager.java:709  | Page #2: 1 part along 2 systems
+2017-10-06 15:28:46,666 INFO [91387632]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:28:46,920 INFO [91387632]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:28:46,923 INFO [91387632]       StepMonitoring.java:96   | HEADERS
+2017-10-06 15:28:47,311 INFO []          Nd4jBackend.java:194  | Loaded [CpuBackend] backend
+2017-10-06 15:28:47,377 INFO []      NativeOpsHolder.java:49   | Number of threads used for NativeOps: 2
+2017-10-06 15:28:47,817 INFO [] DefaultOpExecutioner.java:544  | Backend used: [CPU]; OS: [Mac OS X]
+2017-10-06 15:28:47,818 INFO [] DefaultOpExecutioner.java:545  | Cores: [4]; Memory: [3.6GB];
+2017-10-06 15:28:47,818 INFO [] DefaultOpExecutioner.java:546  | Blas vendor: [OPENBLAS]
+2017-10-06 15:28:47,859 INFO []   AbstractClassifier.java:332  | Classifier data loaded from default uri jar:file:/Users/stephenn/Documents/workspace/audiveris/build/distributions/Audiveris/lib/audiveris.jar!/res/basic-classifier.zip
+2017-10-06 15:28:50,190 WARN [91387632]          ClefBuilder.java:560  | Staff#4 no header clef.
+2017-10-06 15:28:50,803 INFO [91387632]           KeyBuilder.java:746  | Staff#5 key slice#2 pitch adjusted from -0.4 to -1
+2017-10-06 15:28:50,945 INFO []   AbstractClassifier.java:332  | Classifier data loaded from default uri jar:file:/Users/stephenn/Documents/workspace/audiveris/build/distributions/Audiveris/lib/audiveris.jar!/res/deep-classifier.zip
+2017-10-06 15:28:51,661 INFO [91387632]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:28:52,068 INFO [91387632]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:28:52,071 INFO [91387632]       StepMonitoring.java:96   | STEM_SEEDS
+2017-10-06 15:28:52,170 INFO [91387632]        StemSeedsStep.java:91   | stem(4 max:5)
+2017-10-06 15:28:52,296 INFO [91387632]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:28:52,675 INFO [91387632]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:28:52,678 INFO [91387632]       StepMonitoring.java:96   | BEAMS
+2017-10-06 15:28:56,403 INFO [91387632]            BeamsStep.java:89   | BeamDistance{count:6 mean:15.27 stdDev:0.31}
+2017-10-06 15:28:56,406 INFO [91387632]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:28:56,480 INFO [91387632]              Picture.java:786  | Stored /sheet#1/HEAD_SPOTS.xml
+2017-10-06 15:28:57,027 INFO [91387632]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:28:57,029 INFO [91387632]       StepMonitoring.java:96   | LEDGERS
+2017-10-06 15:28:57,629 INFO [91387632]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:28:58,177 INFO [91387632]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:28:58,179 INFO [91387632]       StepMonitoring.java:96   | HEADS
+2017-10-06 15:29:00,837 INFO [91387632]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:29:02,024 INFO [91387632]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:29:02,027 INFO [91387632]       StepMonitoring.java:96   | STEMS
+2017-10-06 15:29:04,154 INFO [91387632]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:29:05,439 INFO [91387632]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:29:05,442 INFO [91387632]       StepMonitoring.java:96   | REDUCTION
+2017-10-06 15:29:05,890 INFO [91387632]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:29:06,796 INFO [91387632]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:29:06,798 INFO [91387632]       StepMonitoring.java:96   | CUE_BEAMS
+2017-10-06 15:29:06,804 INFO [91387632]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:29:07,732 INFO [91387632]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:29:07,735 INFO [91387632]       StepMonitoring.java:96   | TEXTS

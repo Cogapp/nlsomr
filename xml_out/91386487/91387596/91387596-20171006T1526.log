@@ -1,0 +1,1083 @@
+2017-10-06 15:26:10,808 INFO [91387596]            BasicBook.java:427  | 1 sheet in /Users/stephenn/Documents/workspace/nlsomr/working/91387596.jpg
+2017-10-06 15:26:10,973 INFO []            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:26:10,974 INFO []            BasicBook.java:1355 | Book stored as /Users/stephenn/Documents/workspace/nlsomr/xml_out/91386487/91387596/91387596.omr
+2017-10-06 15:26:10,979 INFO []            BasicBook.java:996  | Book reaching PAGE on sheets:[#1]
+2017-10-06 15:26:10,980 INFO [91387596]       StepMonitoring.java:96   | LOAD
+2017-10-06 15:26:11,141 INFO [91387596]            BasicBook.java:911  | Loaded image 1 2000x3056 from /Users/stephenn/Documents/workspace/nlsomr/working/91387596.jpg
+2017-10-06 15:26:11,145 INFO [91387596]            ImageUtil.java:82   | Converting max RGB to gray ...
+2017-10-06 15:26:11,392 INFO [91387596]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:26:11,729 INFO [91387596]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:26:11,730 INFO [91387596]       StepMonitoring.java:96   | BINARY
+2017-10-06 15:26:12,377 INFO [91387596]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:26:12,685 INFO [91387596]              Picture.java:786  | Stored /sheet#1/BINARY.xml
+2017-10-06 15:26:12,687 INFO [91387596]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:26:12,689 INFO [91387596]       StepMonitoring.java:96   | SCALE
+2017-10-06 15:26:12,731 INFO [91387596]         ScaleBuilder.java:229  | No beam key found, guessed value 10
+2017-10-06 15:26:12,732 INFO [91387596]            ScaleStep.java:87   | Scale{line(4,5,6) interline(16,16,17) beam(10 extra)}
+2017-10-06 15:26:12,735 INFO [91387596]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:26:12,737 INFO [91387596]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:26:12,740 INFO [91387596]       StepMonitoring.java:96   | GRID
+2017-10-06 15:26:13,699 INFO [91387596]       LinesRetriever.java:442  | Global slope: -0.00078
+2017-10-06 15:26:13,808 INFO [91387596]    ClustersRetriever.java:241  | Retrieved line clusters: 12 of size: 5 with interline: (16,16,17)
+2017-10-06 15:26:14,465 INFO [91387596]            PeakGraph.java:181  | Systems: #1[1, 2] #2[3, 4] #3[5, 6] #4[7, 8] #5[9, 10] #6[11, 12]
+2017-10-06 15:26:14,563 INFO [91387596]        BarsRetriever.java:910  | No brace partner at level:1 for Peak{155-171 F#2498 T#3 [BRACE]}
+2017-10-06 15:26:14,564 INFO [91387596]        BarsRetriever.java:910  | No brace partner at level:1 for Peak{237-258 F#2500 T#4 [BRACE, BRACE_BOTTOM]}
+2017-10-06 15:26:15,585 INFO [91387596]        SystemManager.java:626  | Indentation detected for system#2
+2017-10-06 15:26:15,586 INFO [91387596]        SystemManager.java:671  | 2 pages found in sheet
+2017-10-06 15:26:15,588 INFO [91387596]        SystemManager.java:709  | Page #1: 1 part along 1 system
+2017-10-06 15:26:15,589 INFO [91387596]        SystemManager.java:709  | Page #2: 2 parts along 5 systems
+2017-10-06 15:26:15,596 INFO [91387596]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:26:15,834 INFO [91387596]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:26:15,838 INFO [91387596]       StepMonitoring.java:96   | HEADERS
+2017-10-06 15:26:16,242 INFO []          Nd4jBackend.java:194  | Loaded [CpuBackend] backend
+2017-10-06 15:26:16,296 INFO []      NativeOpsHolder.java:49   | Number of threads used for NativeOps: 2
+2017-10-06 15:26:16,764 INFO [] DefaultOpExecutioner.java:544  | Backend used: [CPU]; OS: [Mac OS X]
+2017-10-06 15:26:16,765 INFO [] DefaultOpExecutioner.java:545  | Cores: [4]; Memory: [3.6GB];
+2017-10-06 15:26:16,766 INFO [] DefaultOpExecutioner.java:546  | Blas vendor: [OPENBLAS]
+2017-10-06 15:26:16,812 INFO []   AbstractClassifier.java:332  | Classifier data loaded from default uri jar:file:/Users/stephenn/Documents/workspace/audiveris/build/distributions/Audiveris/lib/audiveris.jar!/res/basic-classifier.zip
+2017-10-06 15:26:19,286 WARN [91387596]          ClefBuilder.java:560  | Staff#8 no header clef.
+2017-10-06 15:26:19,464 WARN [91387596]          ClefBuilder.java:560  | Staff#10 no header clef.
+2017-10-06 15:26:19,649 INFO [91387596]           KeyBuilder.java:746  | Staff#12 key slice#4 pitch adjusted from 1.1 to 0
+2017-10-06 15:26:19,653 INFO [91387596]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:26:19,998 INFO [91387596]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:26:20,000 INFO [91387596]       StepMonitoring.java:96   | STEM_SEEDS
+2017-10-06 15:26:20,145 INFO []   AbstractClassifier.java:332  | Classifier data loaded from default uri jar:file:/Users/stephenn/Documents/workspace/audiveris/build/distributions/Audiveris/lib/audiveris.jar!/res/deep-classifier.zip
+2017-10-06 15:26:20,151 INFO [91387596]        StemSeedsStep.java:91   | stem(4 max:5)
+2017-10-06 15:26:20,273 INFO [91387596]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:26:20,648 INFO [91387596]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:26:20,651 INFO [91387596]       StepMonitoring.java:96   | BEAMS
+2017-10-06 15:26:24,493 INFO [91387596]            BeamsStep.java:89   | BeamDistance{count:4 mean:11.22 stdDev:7.49}
+2017-10-06 15:26:24,496 INFO [91387596]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:26:24,566 INFO [91387596]              Picture.java:786  | Stored /sheet#1/HEAD_SPOTS.xml
+2017-10-06 15:26:24,962 INFO [91387596]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:26:24,965 INFO [91387596]       StepMonitoring.java:96   | LEDGERS
+2017-10-06 15:26:25,638 INFO [91387596]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:26:26,046 INFO [91387596]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:26:26,049 INFO [91387596]       StepMonitoring.java:96   | HEADS
+2017-10-06 15:26:28,687 INFO [91387596]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:26:29,668 INFO [91387596]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:26:29,671 INFO [91387596]       StepMonitoring.java:96   | STEMS
+2017-10-06 15:26:31,959 INFO [91387596]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:26:33,003 INFO [91387596]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:26:33,007 INFO [91387596]       StepMonitoring.java:96   | REDUCTION
+2017-10-06 15:26:33,492 INFO [91387596]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:26:34,266 INFO [91387596]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:26:34,268 INFO [91387596]       StepMonitoring.java:96   | CUE_BEAMS
+2017-10-06 15:26:34,274 INFO [91387596]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:26:35,052 INFO [91387596]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:26:35,054 INFO [91387596]       StepMonitoring.java:96   | TEXTS
+2017-10-06 15:26:37,263 INFO [91387596]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:26:38,082 INFO [91387596]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:26:38,084 INFO [91387596]       StepMonitoring.java:96   | MEASURES
+2017-10-06 15:26:38,090 INFO [91387596]                 Page.java:210  | 4 raw measures: [4 in system#1]
+2017-10-06 15:26:38,090 INFO [91387596]                 Page.java:210  | 26 raw measures: [5 in system#2, 6 in system#3, 5 in system#4, 5 in system#5, 5 in system#6]
+2017-10-06 15:26:38,092 INFO [91387596]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:26:38,892 INFO [91387596]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:26:38,894 INFO [91387596]       StepMonitoring.java:96   | CHORDS
+2017-10-06 15:26:38,906 INFO [91387596]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:26:39,739 INFO [91387596]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:26:39,741 INFO [91387596]       StepMonitoring.java:96   | CURVES
+2017-10-06 15:26:41,648 INFO [91387596]         SlursBuilder.java:157  | Slurs: 43
+2017-10-06 15:26:41,669 INFO [91387596]      SegmentsBuilder.java:113  | Segments: 13
+2017-10-06 15:26:41,676 INFO [91387596]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:26:42,603 INFO [91387596]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:26:42,606 INFO [91387596]       StepMonitoring.java:96   | SYMBOLS
+2017-10-06 15:26:45,464 INFO [91387596]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:26:46,562 INFO [91387596]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:26:46,564 INFO [91387596]       StepMonitoring.java:96   | LINKS
+2017-10-06 15:26:46,566 INFO [91387596]        SymbolsLinker.java:323  | No chord above direction SentenceInter{#5936(0.677) s:2 BIS-38 Direction} 123
+2017-10-06 15:26:46,567 INFO [91387596]        SymbolsLinker.java:323  | No chord above direction SentenceInter{#5942(0.630) s:2 BIS-37 Direction} Malta
+2017-10-06 15:26:46,576 INFO [91387596]        SymbolsLinker.java:306  | No measure stack for direction SentenceInter{#5958(0.636) s:3 B-36 Direction} J :.92.
+2017-10-06 15:26:46,582 INFO [91387596]        SymbolsLinker.java:323  | No chord above direction SentenceInter{#5978(0.604) s:6 BIS-40 Direction} agitate
+2017-10-06 15:26:46,593 INFO [91387596]        SymbolsLinker.java:323  | No chord above direction SentenceInter{#5991(0.605) s:10 IS-39 Direction} rallent
+2017-10-06 15:26:46,621 INFO [91387596]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:26:47,836 INFO [91387596]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:26:47,838 INFO [91387596]       StepMonitoring.java:96   | RHYTHMS
+2017-10-06 15:26:47,860 INFO [91387596]           PageRhythm.java:314  | Range{1-4} Durations avgGuess:1 topGuess:1 avgValue:1.07 stacks:4 voices:11 Histogram{1/4-5/4 size:4 [1/4=2 1=6 9/8=1 5/4=2]}
+2017-10-06 15:26:47,860 INFO [91387596]           PageRhythm.java:221  | S1 Range{1-4 dur:1} should update to 1-based time sig?
+2017-10-06 15:26:47,863 INFO [91387596]                Voice.java:257  | S1 MeasureStack#1 Voice #1 too long 1/4
+2017-10-06 15:26:47,864 INFO [91387596]                Voice.java:257  | S1 MeasureStack#1 Voice #2 too long 1/4
+2017-10-06 15:26:47,865 INFO [91387596]           StackTuner.java:92   | S1 MeasureStack#1 no correct rhythm
+2017-10-06 15:26:47,867 INFO [91387596]                Voice.java:257  | S1 MeasureStack#2 Voice #1 too long 1/8
+2017-10-06 15:26:47,867 INFO [91387596]           StackTuner.java:92   | S1 MeasureStack#2 no correct rhythm
+2017-10-06 15:26:47,900 INFO [91387596]           PageRhythm.java:314  | Range{1-26} Durations avgGuess:3/4 topGuess:3/4 avgValue:0.68 stacks:26 voices:64 Histogram{1/4-5/4 size:9 [1/4=1 1/2=21 9/16=1 5/8=3 3/4=32 25/32=1 7/8=3 9/8=1 5/4=1]}
+2017-10-06 15:26:47,901 INFO [91387596]           PageRhythm.java:221  | S2 Range{1-26 dur:3/4} should update to 3/4-based time sig?
+2017-10-06 15:26:47,902 INFO [91387596]                Voice.java:257  | S2 MeasureStack#1 Voice #1 too long 1/2
+2017-10-06 15:26:47,902 INFO [91387596]           StackTuner.java:92   | S2 MeasureStack#1 no correct rhythm
+2017-10-06 15:26:47,906 INFO [91387596]         SlotsBuilder.java:427  | S2 MeasureStack#5 Slot{#3 xOffset=146 timeOffset=1/2 incomings=[#6079#6080] SUSPICIOUS}
+2017-10-06 15:26:47,907 INFO [91387596]                Voice.java:257  | S2 MeasureStack#5 Voice #1 too long 1/4
+2017-10-06 15:26:47,908 INFO [91387596]           StackTuner.java:92   | S2 MeasureStack#5 no correct rhythm
+2017-10-06 15:26:47,910 INFO [91387596]         SlotsBuilder.java:427  | S3 MeasureStack#7 Slot{#4 xOffset=156 timeOffset=1/2 incomings=[#6088] SUSPICIOUS}
+2017-10-06 15:26:47,910 INFO [91387596]                Voice.java:257  | S3 MeasureStack#7 Voice #1 too long 1/16
+2017-10-06 15:26:47,911 INFO [91387596]           StackTuner.java:92   | S3 MeasureStack#7 no correct rhythm
+2017-10-06 15:26:47,912 INFO [91387596]                Voice.java:257  | S3 MeasureStack#8 Voice #1 too long 3/8
+2017-10-06 15:26:47,913 INFO [91387596]           StackTuner.java:92   | S3 MeasureStack#8 no correct rhythm
+2017-10-06 15:26:47,918 INFO [91387596]         SlotsBuilder.java:427  | S3 MeasureStack#11 Slot{#5 xOffset=213 timeOffset=5/8 incomings=[#6101] SUSPICIOUS}
+2017-10-06 15:26:47,919 INFO [91387596]                Voice.java:257  | S3 MeasureStack#11 Voice #1 too long 1/8
+2017-10-06 15:26:47,920 INFO [91387596]           StackTuner.java:92   | S3 MeasureStack#11 no correct rhythm
+2017-10-06 15:26:47,922 INFO [91387596]         SlotsBuilder.java:427  | S4 MeasureStack#13 Slot{#6 xOffset=224 timeOffset=9/16 incomings=[#6125] SUSPICIOUS}
+2017-10-06 15:26:47,922 INFO [91387596]                Voice.java:257  | S4 MeasureStack#13 Voice #1 too long 3/32
+2017-10-06 15:26:47,923 INFO [91387596]           StackTuner.java:92   | S4 MeasureStack#13 no correct rhythm
+2017-10-06 15:26:47,928 INFO [91387596]                Voice.java:257  | S5 MeasureStack#20 Voice #1 too long 1/8
+2017-10-06 15:26:47,929 INFO [91387596]           StackTuner.java:92   | S5 MeasureStack#20 no correct rhythm
+2017-10-06 15:26:47,931 INFO [91387596]                Voice.java:257  | S5 MeasureStack#21 Voice #1 too long 1/32
+2017-10-06 15:26:47,931 INFO [91387596]                Voice.java:257  | S5 MeasureStack#21 Voice #3 too long 1/8
+2017-10-06 15:26:47,931 INFO [91387596]           StackTuner.java:92   | S5 MeasureStack#21 no correct rhythm
+2017-10-06 15:26:47,935 INFO [91387596]                Voice.java:257  | S6 MeasureStack#24 Voice #3 too long 1/8
+2017-10-06 15:26:47,935 INFO [91387596]           StackTuner.java:92   | S6 MeasureStack#24 no correct rhythm
+2017-10-06 15:26:47,939 INFO [91387596]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:26:49,098 INFO [91387596]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:26:49,101 INFO [91387596]       StepMonitoring.java:96   | PAGE
+2017-10-06 15:26:49,106 INFO [91387596]                Voice.java:257  | S1 MeasureStack#1 Voice #1 too long 1/4
+2017-10-06 15:26:49,106 INFO [91387596]                Voice.java:257  | S1 MeasureStack#1 Voice #2 too long 1/4
+2017-10-06 15:26:49,106 INFO [91387596]                Voice.java:257  | S1 MeasureStack#2 Voice #1 too long 1/8
+2017-10-06 15:26:49,109 INFO [91387596]                Voice.java:257  | S2 MeasureStack#1 Voice #1 too long 1/2
+2017-10-06 15:26:49,109 INFO [91387596]                Voice.java:257  | S2 MeasureStack#5 Voice #1 too long 1/4
+2017-10-06 15:26:49,110 INFO [91387596]                Voice.java:257  | S3 MeasureStack#7 Voice #1 too long 1/16
+2017-10-06 15:26:49,110 INFO [91387596]                Voice.java:257  | S3 MeasureStack#8 Voice #1 too long 3/8
+2017-10-06 15:26:49,111 INFO [91387596]                Voice.java:257  | S3 MeasureStack#11 Voice #1 too long 1/8
+2017-10-06 15:26:49,112 INFO [91387596]                Voice.java:257  | S4 MeasureStack#13 Voice #1 too long 3/32
+2017-10-06 15:26:49,113 INFO [91387596]                Voice.java:257  | S5 MeasureStack#20 Voice #1 too long 1/8
+2017-10-06 15:26:49,113 INFO [91387596]                Voice.java:257  | S5 MeasureStack#21 Voice #1 too long 1/32
+2017-10-06 15:26:49,113 INFO [91387596]                Voice.java:257  | S5 MeasureStack#21 Voice #3 too long 1/8
+2017-10-06 15:26:49,113 INFO [91387596]                Voice.java:257  | S6 MeasureStack#24 Voice #3 too long 1/8
+2017-10-06 15:26:49,119 INFO [91387596]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:26:50,252 INFO [91387596]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:26:50,255 INFO [91387596]            BasicStub.java:723  | Sheet{91387596} disposed
+2017-10-06 15:26:51,391 WARN [91387596]              SIGraph.java:192  | Error in class org.audiveris.omr.sig.SIGraph afterReload() java.lang.ClassCastException: org.audiveris.omr.sig.inter.SmallChordInter cannot be cast to org.audiveris.omr.sig.inter.HeadChordInter
+java.lang.ClassCastException: org.audiveris.omr.sig.inter.SmallChordInter cannot be cast to org.audiveris.omr.sig.inter.HeadChordInter
+	at org.audiveris.omr.sig.inter.ArticulationInter.getStaff(ArticulationInter.java:102)
+	at org.audiveris.omr.sheet.Staff$StaffHolder.checkStaffHolder(Staff.java:1804)
+	at org.audiveris.omr.sig.SIGraph.afterReload(SIGraph.java:189)
+	at org.audiveris.omr.sheet.SystemInfo.afterReload(SystemInfo.java:257)
+	at org.audiveris.omr.sheet.BasicSheet.afterReload(BasicSheet.java:327)
+	at org.audiveris.omr.sheet.BasicStub.getSheet(BasicStub.java:448)
+	at org.audiveris.omr.sheet.BasicStub.getSheet(BasicStub.java:86)
+	at org.audiveris.omr.score.Score.getPage(Score.java:608)
+	at org.audiveris.omr.score.Score.getPages(Score.java:380)
+	at org.audiveris.omr.score.ScoreReduction.<init>(ScoreReduction.java:94)
+	at org.audiveris.omr.sheet.BasicBook.reduceScores(BasicBook.java:1109)
+	at org.audiveris.omr.sheet.BasicBook.transcribe(BasicBook.java:1448)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:558)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:785)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:344)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+2017-10-06 15:26:51,394 INFO [91387596]            BasicStub.java:449  | Loaded /sheet#1/sheet#1.xml
+2017-10-06 15:26:51,395 INFO [91387596]            BasicBook.java:1133 | Scores built: 2
+2017-10-06 15:26:52,496 INFO [91387596]        ScoreExporter.java:93   | Score 91387596.mvt1 exported to /Users/stephenn/Documents/workspace/nlsomr/xml_out/91386487/91387596/91387596.mvt1.mxl
+2017-10-06 15:26:52,501 INFO [91387596]                 Part.java:312  | S#3 {Part#3 staves[5,6]} createDummyPart for id=1
+2017-10-06 15:26:52,504 WARN [91387596]      PartwiseBuilder.java:1970 | Error visiting RestInter{#0(0.000) e#0 s:0 p:-1.00 WHOLE_REST}
+java.lang.NullPointerException: null
+	at org.audiveris.omr.score.PartwiseBuilder.processNote(PartwiseBuilder.java:1735)
+	at org.audiveris.omr.score.PartwiseBuilder.processChord(PartwiseBuilder.java:1056)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:1614)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:1988)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2532)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1433)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2483)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2017)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2195)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:307)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:117)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:91)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:589)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:785)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:344)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+2017-10-06 15:26:52,505 WARN [91387596]      PartwiseBuilder.java:1970 | Error visiting RestInter{#0(0.000) e#0 s:0 p:-1.00 WHOLE_REST}
+java.lang.NullPointerException: null
+	at org.audiveris.omr.score.PartwiseBuilder.processNote(PartwiseBuilder.java:1735)
+	at org.audiveris.omr.score.PartwiseBuilder.processChord(PartwiseBuilder.java:1056)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:1614)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:1988)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2532)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1433)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2483)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2017)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2195)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:307)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:117)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:91)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:589)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:785)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:344)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+2017-10-06 15:26:52,542 WARN [91387596]      PartwiseBuilder.java:1970 | Error visiting RestInter{#0(0.000) e#0 s:0 p:-1.00 WHOLE_REST}
+java.lang.NullPointerException: null
+	at org.audiveris.omr.score.PartwiseBuilder.processNote(PartwiseBuilder.java:1735)
+	at org.audiveris.omr.score.PartwiseBuilder.processChord(PartwiseBuilder.java:1056)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:1614)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:1988)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2532)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1433)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2483)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2017)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2195)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:307)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:117)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:91)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:589)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:785)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:344)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+2017-10-06 15:26:52,544 WARN [91387596]      PartwiseBuilder.java:1970 | Error visiting RestInter{#0(0.000) e#0 s:0 p:-1.00 WHOLE_REST}
+java.lang.NullPointerException: null
+	at org.audiveris.omr.score.PartwiseBuilder.processNote(PartwiseBuilder.java:1735)
+	at org.audiveris.omr.score.PartwiseBuilder.processChord(PartwiseBuilder.java:1056)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:1614)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:1988)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2532)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1433)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2483)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2017)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2195)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:307)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:117)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:91)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:589)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:785)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:344)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+2017-10-06 15:26:52,545 WARN [91387596]      PartwiseBuilder.java:1970 | Error visiting RestInter{#0(0.000) e#0 s:0 p:-1.00 WHOLE_REST}
+java.lang.NullPointerException: null
+	at org.audiveris.omr.score.PartwiseBuilder.processNote(PartwiseBuilder.java:1735)
+	at org.audiveris.omr.score.PartwiseBuilder.processChord(PartwiseBuilder.java:1056)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:1614)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:1988)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2532)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1433)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2483)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2017)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2195)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:307)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:117)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:91)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:589)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:785)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:344)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+2017-10-06 15:26:52,549 WARN [91387596]      PartwiseBuilder.java:1970 | Error visiting RestInter{#0(0.000) e#0 s:0 p:-1.00 WHOLE_REST}
+java.lang.NullPointerException: null
+	at org.audiveris.omr.score.PartwiseBuilder.processNote(PartwiseBuilder.java:1735)
+	at org.audiveris.omr.score.PartwiseBuilder.processChord(PartwiseBuilder.java:1056)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:1614)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:1988)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2532)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1433)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2483)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2017)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2195)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:307)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:117)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:91)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:589)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:785)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:344)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+2017-10-06 15:26:52,550 INFO [91387596]                 Part.java:312  | S#4 {Part#3 staves[7,8]} createDummyPart for id=1
+2017-10-06 15:26:52,551 WARN [91387596]      PartwiseBuilder.java:1970 | Error visiting RestInter{#0(0.000) e#0 s:0 p:-1.00 WHOLE_REST}
+java.lang.NullPointerException: null
+	at org.audiveris.omr.score.PartwiseBuilder.processNote(PartwiseBuilder.java:1735)
+	at org.audiveris.omr.score.PartwiseBuilder.processChord(PartwiseBuilder.java:1056)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:1614)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:1988)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2532)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1433)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2483)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2017)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2195)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:307)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:117)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:91)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:589)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:785)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:344)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+2017-10-06 15:26:52,553 WARN [91387596]      PartwiseBuilder.java:1970 | Error visiting RestInter{#0(0.000) e#0 s:0 p:-1.00 WHOLE_REST}
+java.lang.NullPointerException: null
+	at org.audiveris.omr.score.PartwiseBuilder.processNote(PartwiseBuilder.java:1735)
+	at org.audiveris.omr.score.PartwiseBuilder.processChord(PartwiseBuilder.java:1056)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:1614)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:1988)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2532)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1433)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2483)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2017)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2195)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:307)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:117)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:91)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:589)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:785)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:344)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+2017-10-06 15:26:52,556 WARN [91387596]      PartwiseBuilder.java:1970 | Error visiting RestInter{#0(0.000) e#0 s:0 p:-1.00 WHOLE_REST}
+java.lang.NullPointerException: null
+	at org.audiveris.omr.score.PartwiseBuilder.processNote(PartwiseBuilder.java:1735)
+	at org.audiveris.omr.score.PartwiseBuilder.processChord(PartwiseBuilder.java:1056)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:1614)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:1988)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2532)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1433)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2483)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2017)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2195)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:307)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:117)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:91)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:589)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:785)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:344)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+2017-10-06 15:26:52,557 WARN [91387596]      PartwiseBuilder.java:1970 | Error visiting RestInter{#0(0.000) e#0 s:0 p:-1.00 WHOLE_REST}
+java.lang.NullPointerException: null
+	at org.audiveris.omr.score.PartwiseBuilder.processNote(PartwiseBuilder.java:1735)
+	at org.audiveris.omr.score.PartwiseBuilder.processChord(PartwiseBuilder.java:1056)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:1614)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:1988)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2532)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1433)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2483)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2017)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2195)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:307)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:117)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:91)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:589)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:785)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:344)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+2017-10-06 15:26:52,558 WARN [91387596]      PartwiseBuilder.java:1970 | Error visiting RestInter{#0(0.000) e#0 s:0 p:-1.00 WHOLE_REST}
+java.lang.NullPointerException: null
+	at org.audiveris.omr.score.PartwiseBuilder.processNote(PartwiseBuilder.java:1735)
+	at org.audiveris.omr.score.PartwiseBuilder.processChord(PartwiseBuilder.java:1056)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:1614)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:1988)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2532)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1433)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2483)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2017)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2195)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:307)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:117)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:91)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:589)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:785)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:344)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+2017-10-06 15:26:52,559 INFO [91387596]                 Part.java:312  | S#5 {Part#3 staves[9,10]} createDummyPart for id=1
+2017-10-06 15:26:52,560 WARN [91387596]      PartwiseBuilder.java:1970 | Error visiting RestInter{#0(0.000) e#0 s:0 p:-1.00 WHOLE_REST}
+java.lang.NullPointerException: null
+	at org.audiveris.omr.score.PartwiseBuilder.processNote(PartwiseBuilder.java:1735)
+	at org.audiveris.omr.score.PartwiseBuilder.processChord(PartwiseBuilder.java:1056)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:1614)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:1988)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2532)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1433)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2483)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2017)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2195)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:307)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:117)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:91)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:589)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:785)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:344)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+2017-10-06 15:26:52,561 WARN [91387596]      PartwiseBuilder.java:1970 | Error visiting RestInter{#0(0.000) e#0 s:0 p:-1.00 WHOLE_REST}
+java.lang.NullPointerException: null
+	at org.audiveris.omr.score.PartwiseBuilder.processNote(PartwiseBuilder.java:1735)
+	at org.audiveris.omr.score.PartwiseBuilder.processChord(PartwiseBuilder.java:1056)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:1614)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:1988)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2532)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1433)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2483)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2017)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2195)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:307)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:117)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:91)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:589)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:785)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:344)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+2017-10-06 15:26:52,562 WARN [91387596]      PartwiseBuilder.java:1970 | Error visiting RestInter{#0(0.000) e#0 s:0 p:-1.00 WHOLE_REST}
+java.lang.NullPointerException: null
+	at org.audiveris.omr.score.PartwiseBuilder.processNote(PartwiseBuilder.java:1735)
+	at org.audiveris.omr.score.PartwiseBuilder.processChord(PartwiseBuilder.java:1056)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:1614)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:1988)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2532)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1433)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2483)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2017)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2195)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:307)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:117)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:91)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:589)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:785)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:344)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+2017-10-06 15:26:52,563 WARN [91387596]      PartwiseBuilder.java:1970 | Error visiting RestInter{#0(0.000) e#0 s:0 p:-1.00 WHOLE_REST}
+java.lang.NullPointerException: null
+	at org.audiveris.omr.score.PartwiseBuilder.processNote(PartwiseBuilder.java:1735)
+	at org.audiveris.omr.score.PartwiseBuilder.processChord(PartwiseBuilder.java:1056)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:1614)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:1988)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2532)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1433)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2483)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2017)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2195)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:307)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:117)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:91)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:589)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:785)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:344)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+2017-10-06 15:26:52,564 WARN [91387596]      PartwiseBuilder.java:1970 | Error visiting RestInter{#0(0.000) e#0 s:0 p:-1.00 WHOLE_REST}
+java.lang.NullPointerException: null
+	at org.audiveris.omr.score.PartwiseBuilder.processNote(PartwiseBuilder.java:1735)
+	at org.audiveris.omr.score.PartwiseBuilder.processChord(PartwiseBuilder.java:1056)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:1614)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:1988)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2532)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1433)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2483)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2017)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2195)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:307)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:117)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:91)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:589)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:785)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:344)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+2017-10-06 15:26:52,565 INFO [91387596]                 Part.java:312  | S#6 {Part#3 staves[11,12]} createDummyPart for id=1
+2017-10-06 15:26:52,566 WARN [91387596]      PartwiseBuilder.java:1970 | Error visiting RestInter{#0(0.000) e#0 s:0 p:-1.00 WHOLE_REST}
+java.lang.NullPointerException: null
+	at org.audiveris.omr.score.PartwiseBuilder.processNote(PartwiseBuilder.java:1735)
+	at org.audiveris.omr.score.PartwiseBuilder.processChord(PartwiseBuilder.java:1056)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:1614)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:1988)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2532)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1433)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2483)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2017)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2195)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:307)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:117)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:91)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:589)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:785)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:344)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+2017-10-06 15:26:52,567 WARN [91387596]      PartwiseBuilder.java:1970 | Error visiting RestInter{#0(0.000) e#0 s:0 p:-1.00 WHOLE_REST}
+java.lang.NullPointerException: null
+	at org.audiveris.omr.score.PartwiseBuilder.processNote(PartwiseBuilder.java:1735)
+	at org.audiveris.omr.score.PartwiseBuilder.processChord(PartwiseBuilder.java:1056)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:1614)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:1988)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2532)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1433)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2483)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2017)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2195)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:307)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:117)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:91)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:589)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:785)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:344)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+2017-10-06 15:26:52,567 WARN [91387596]      PartwiseBuilder.java:1970 | Error visiting RestInter{#0(0.000) e#0 s:0 p:-1.00 WHOLE_REST}
+java.lang.NullPointerException: null
+	at org.audiveris.omr.score.PartwiseBuilder.processNote(PartwiseBuilder.java:1735)
+	at org.audiveris.omr.score.PartwiseBuilder.processChord(PartwiseBuilder.java:1056)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:1614)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:1988)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2532)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1433)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2483)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2017)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2195)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:307)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:117)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:91)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:589)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:785)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:344)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+2017-10-06 15:26:52,568 WARN [91387596]      PartwiseBuilder.java:1970 | Error visiting RestInter{#0(0.000) e#0 s:0 p:-1.00 WHOLE_REST}
+java.lang.NullPointerException: null
+	at org.audiveris.omr.score.PartwiseBuilder.processNote(PartwiseBuilder.java:1735)
+	at org.audiveris.omr.score.PartwiseBuilder.processChord(PartwiseBuilder.java:1056)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:1614)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:1988)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2532)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1433)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2483)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2017)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2195)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:307)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:117)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:91)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:589)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:785)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:344)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+2017-10-06 15:26:52,569 WARN [91387596]      PartwiseBuilder.java:1970 | Error visiting RestInter{#0(0.000) e#0 s:0 p:-1.00 WHOLE_REST}
+java.lang.NullPointerException: null
+	at org.audiveris.omr.score.PartwiseBuilder.processNote(PartwiseBuilder.java:1735)
+	at org.audiveris.omr.score.PartwiseBuilder.processChord(PartwiseBuilder.java:1056)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:1614)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:1988)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2532)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1433)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2483)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2017)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2195)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:307)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:117)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:91)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:589)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:785)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:344)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+2017-10-06 15:26:52,572 INFO [91387596]                 Part.java:312  | S#3 {Part#3 staves[5,6]} createDummyPart for id=2
+2017-10-06 15:26:52,573 WARN [91387596]      PartwiseBuilder.java:1970 | Error visiting RestInter{#0(0.000) e#0 s:0 p:-1.00 WHOLE_REST}
+java.lang.NullPointerException: null
+	at org.audiveris.omr.score.PartwiseBuilder.processNote(PartwiseBuilder.java:1735)
+	at org.audiveris.omr.score.PartwiseBuilder.processChord(PartwiseBuilder.java:1056)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:1614)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:1988)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2532)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1433)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2483)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2017)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2195)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:307)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:117)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:91)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:589)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:785)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:344)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+2017-10-06 15:26:52,575 WARN [91387596]      PartwiseBuilder.java:1970 | Error visiting RestInter{#0(0.000) e#0 s:0 p:-1.00 WHOLE_REST}
+java.lang.NullPointerException: null
+	at org.audiveris.omr.score.PartwiseBuilder.processNote(PartwiseBuilder.java:1735)
+	at org.audiveris.omr.score.PartwiseBuilder.processChord(PartwiseBuilder.java:1056)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:1614)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:1988)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2532)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1433)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2483)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2017)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2195)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:307)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:117)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:91)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:589)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:785)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:344)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+2017-10-06 15:26:52,576 WARN [91387596]      PartwiseBuilder.java:1970 | Error visiting RestInter{#0(0.000) e#0 s:0 p:-1.00 WHOLE_REST}
+java.lang.NullPointerException: null
+	at org.audiveris.omr.score.PartwiseBuilder.processNote(PartwiseBuilder.java:1735)
+	at org.audiveris.omr.score.PartwiseBuilder.processChord(PartwiseBuilder.java:1056)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:1614)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:1988)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2532)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1433)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2483)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2017)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2195)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:307)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:117)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:91)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:589)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:785)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:344)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+2017-10-06 15:26:52,577 WARN [91387596]      PartwiseBuilder.java:1970 | Error visiting RestInter{#0(0.000) e#0 s:0 p:-1.00 WHOLE_REST}
+java.lang.NullPointerException: null
+	at org.audiveris.omr.score.PartwiseBuilder.processNote(PartwiseBuilder.java:1735)
+	at org.audiveris.omr.score.PartwiseBuilder.processChord(PartwiseBuilder.java:1056)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:1614)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:1988)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2532)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1433)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2483)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2017)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2195)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:307)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:117)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:91)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:589)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:785)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:344)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+2017-10-06 15:26:52,578 WARN [91387596]      PartwiseBuilder.java:1970 | Error visiting RestInter{#0(0.000) e#0 s:0 p:-1.00 WHOLE_REST}
+java.lang.NullPointerException: null
+	at org.audiveris.omr.score.PartwiseBuilder.processNote(PartwiseBuilder.java:1735)
+	at org.audiveris.omr.score.PartwiseBuilder.processChord(PartwiseBuilder.java:1056)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:1614)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:1988)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2532)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1433)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2483)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2017)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2195)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:307)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:117)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:91)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:589)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:785)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:344)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+2017-10-06 15:26:52,579 WARN [91387596]      PartwiseBuilder.java:1970 | Error visiting RestInter{#0(0.000) e#0 s:0 p:-1.00 WHOLE_REST}
+java.lang.NullPointerException: null
+	at org.audiveris.omr.score.PartwiseBuilder.processNote(PartwiseBuilder.java:1735)
+	at org.audiveris.omr.score.PartwiseBuilder.processChord(PartwiseBuilder.java:1056)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:1614)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:1988)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2532)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1433)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2483)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2017)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2195)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:307)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:117)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:91)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:589)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:785)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:344)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+2017-10-06 15:26:52,580 INFO [91387596]                 Part.java:312  | S#4 {Part#3 staves[7,8]} createDummyPart for id=2
+2017-10-06 15:26:52,580 WARN [91387596]      PartwiseBuilder.java:1970 | Error visiting RestInter{#0(0.000) e#0 s:0 p:-1.00 WHOLE_REST}
+java.lang.NullPointerException: null
+	at org.audiveris.omr.score.PartwiseBuilder.processNote(PartwiseBuilder.java:1735)
+	at org.audiveris.omr.score.PartwiseBuilder.processChord(PartwiseBuilder.java:1056)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:1614)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:1988)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2532)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1433)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2483)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2017)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2195)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:307)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:117)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:91)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:589)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:785)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:344)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+2017-10-06 15:26:52,581 WARN [91387596]      PartwiseBuilder.java:1970 | Error visiting RestInter{#0(0.000) e#0 s:0 p:-1.00 WHOLE_REST}
+java.lang.NullPointerException: null
+	at org.audiveris.omr.score.PartwiseBuilder.processNote(PartwiseBuilder.java:1735)
+	at org.audiveris.omr.score.PartwiseBuilder.processChord(PartwiseBuilder.java:1056)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:1614)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:1988)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2532)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1433)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2483)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2017)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2195)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:307)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:117)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:91)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:589)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:785)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:344)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+2017-10-06 15:26:52,582 WARN [91387596]      PartwiseBuilder.java:1970 | Error visiting RestInter{#0(0.000) e#0 s:0 p:-1.00 WHOLE_REST}
+java.lang.NullPointerException: null
+	at org.audiveris.omr.score.PartwiseBuilder.processNote(PartwiseBuilder.java:1735)
+	at org.audiveris.omr.score.PartwiseBuilder.processChord(PartwiseBuilder.java:1056)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:1614)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:1988)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2532)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1433)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2483)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2017)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2195)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:307)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:117)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:91)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:589)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:785)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:344)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+2017-10-06 15:26:52,582 WARN [91387596]      PartwiseBuilder.java:1970 | Error visiting RestInter{#0(0.000) e#0 s:0 p:-1.00 WHOLE_REST}
+java.lang.NullPointerException: null
+	at org.audiveris.omr.score.PartwiseBuilder.processNote(PartwiseBuilder.java:1735)
+	at org.audiveris.omr.score.PartwiseBuilder.processChord(PartwiseBuilder.java:1056)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:1614)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:1988)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2532)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1433)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2483)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2017)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2195)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:307)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:117)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:91)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:589)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:785)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:344)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+2017-10-06 15:26:52,583 WARN [91387596]      PartwiseBuilder.java:1970 | Error visiting RestInter{#0(0.000) e#0 s:0 p:-1.00 WHOLE_REST}
+java.lang.NullPointerException: null
+	at org.audiveris.omr.score.PartwiseBuilder.processNote(PartwiseBuilder.java:1735)
+	at org.audiveris.omr.score.PartwiseBuilder.processChord(PartwiseBuilder.java:1056)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:1614)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:1988)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2532)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1433)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2483)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2017)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2195)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:307)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:117)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:91)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:589)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:785)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:344)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+2017-10-06 15:26:52,583 INFO [91387596]                 Part.java:312  | S#5 {Part#3 staves[9,10]} createDummyPart for id=2
+2017-10-06 15:26:52,584 WARN [91387596]      PartwiseBuilder.java:1970 | Error visiting RestInter{#0(0.000) e#0 s:0 p:-1.00 WHOLE_REST}
+java.lang.NullPointerException: null
+	at org.audiveris.omr.score.PartwiseBuilder.processNote(PartwiseBuilder.java:1735)
+	at org.audiveris.omr.score.PartwiseBuilder.processChord(PartwiseBuilder.java:1056)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:1614)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:1988)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2532)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1433)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2483)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2017)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2195)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:307)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:117)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:91)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:589)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:785)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:344)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+2017-10-06 15:26:52,585 WARN [91387596]      PartwiseBuilder.java:1970 | Error visiting RestInter{#0(0.000) e#0 s:0 p:-1.00 WHOLE_REST}
+java.lang.NullPointerException: null
+	at org.audiveris.omr.score.PartwiseBuilder.processNote(PartwiseBuilder.java:1735)
+	at org.audiveris.omr.score.PartwiseBuilder.processChord(PartwiseBuilder.java:1056)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:1614)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:1988)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2532)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1433)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2483)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2017)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2195)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:307)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:117)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:91)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:589)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:785)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:344)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+2017-10-06 15:26:52,585 WARN [91387596]      PartwiseBuilder.java:1970 | Error visiting RestInter{#0(0.000) e#0 s:0 p:-1.00 WHOLE_REST}
+java.lang.NullPointerException: null
+	at org.audiveris.omr.score.PartwiseBuilder.processNote(PartwiseBuilder.java:1735)
+	at org.audiveris.omr.score.PartwiseBuilder.processChord(PartwiseBuilder.java:1056)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:1614)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:1988)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2532)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1433)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2483)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2017)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2195)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:307)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:117)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:91)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:589)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:785)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:344)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+2017-10-06 15:26:52,586 WARN [91387596]      PartwiseBuilder.java:1970 | Error visiting RestInter{#0(0.000) e#0 s:0 p:-1.00 WHOLE_REST}
+java.lang.NullPointerException: null
+	at org.audiveris.omr.score.PartwiseBuilder.processNote(PartwiseBuilder.java:1735)
+	at org.audiveris.omr.score.PartwiseBuilder.processChord(PartwiseBuilder.java:1056)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:1614)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:1988)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2532)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1433)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2483)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2017)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2195)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:307)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:117)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:91)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:589)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:785)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:344)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+2017-10-06 15:26:52,587 WARN [91387596]      PartwiseBuilder.java:1970 | Error visiting RestInter{#0(0.000) e#0 s:0 p:-1.00 WHOLE_REST}
+java.lang.NullPointerException: null
+	at org.audiveris.omr.score.PartwiseBuilder.processNote(PartwiseBuilder.java:1735)
+	at org.audiveris.omr.score.PartwiseBuilder.processChord(PartwiseBuilder.java:1056)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:1614)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:1988)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2532)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1433)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2483)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2017)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2195)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:307)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:117)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:91)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:589)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:785)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:344)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+2017-10-06 15:26:52,591 INFO [91387596]                 Part.java:312  | S#6 {Part#3 staves[11,12]} createDummyPart for id=2
+2017-10-06 15:26:52,592 WARN [91387596]      PartwiseBuilder.java:1970 | Error visiting RestInter{#0(0.000) e#0 s:0 p:-1.00 WHOLE_REST}
+java.lang.NullPointerException: null
+	at org.audiveris.omr.score.PartwiseBuilder.processNote(PartwiseBuilder.java:1735)
+	at org.audiveris.omr.score.PartwiseBuilder.processChord(PartwiseBuilder.java:1056)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:1614)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:1988)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2532)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1433)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2483)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2017)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2195)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:307)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:117)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:91)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:589)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:785)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:344)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+2017-10-06 15:26:52,593 WARN [91387596]      PartwiseBuilder.java:1970 | Error visiting RestInter{#0(0.000) e#0 s:0 p:-1.00 WHOLE_REST}
+java.lang.NullPointerException: null
+	at org.audiveris.omr.score.PartwiseBuilder.processNote(PartwiseBuilder.java:1735)
+	at org.audiveris.omr.score.PartwiseBuilder.processChord(PartwiseBuilder.java:1056)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:1614)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:1988)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2532)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1433)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2483)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2017)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2195)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:307)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:117)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:91)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:589)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:785)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:344)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+2017-10-06 15:26:52,594 WARN [91387596]      PartwiseBuilder.java:1970 | Error visiting RestInter{#0(0.000) e#0 s:0 p:-1.00 WHOLE_REST}
+java.lang.NullPointerException: null
+	at org.audiveris.omr.score.PartwiseBuilder.processNote(PartwiseBuilder.java:1735)
+	at org.audiveris.omr.score.PartwiseBuilder.processChord(PartwiseBuilder.java:1056)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:1614)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:1988)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2532)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1433)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2483)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2017)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2195)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:307)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:117)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:91)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:589)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:785)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:344)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+2017-10-06 15:26:52,594 WARN [91387596]      PartwiseBuilder.java:1970 | Error visiting RestInter{#0(0.000) e#0 s:0 p:-1.00 WHOLE_REST}
+java.lang.NullPointerException: null
+	at org.audiveris.omr.score.PartwiseBuilder.processNote(PartwiseBuilder.java:1735)
+	at org.audiveris.omr.score.PartwiseBuilder.processChord(PartwiseBuilder.java:1056)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:1614)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:1988)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2532)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1433)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2483)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2017)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2195)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:307)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:117)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:91)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:589)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:785)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:344)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+2017-10-06 15:26:52,595 WARN [91387596]      PartwiseBuilder.java:1970 | Error visiting RestInter{#0(0.000) e#0 s:0 p:-1.00 WHOLE_REST}
+java.lang.NullPointerException: null
+	at org.audiveris.omr.score.PartwiseBuilder.processNote(PartwiseBuilder.java:1735)
+	at org.audiveris.omr.score.PartwiseBuilder.processChord(PartwiseBuilder.java:1056)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:1614)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:1988)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2532)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1433)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2483)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2017)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2195)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:307)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:117)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:91)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:589)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:785)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:344)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+2017-10-06 15:26:52,595 INFO [91387596]                 Part.java:312  | S#2 {Part#1 staves[3] name:Andante} createDummyPart for id=3
+2017-10-06 15:26:52,596 WARN [91387596]      PartwiseBuilder.java:2547 | Error visiting System#2
+java.lang.NullPointerException: null
+	at org.audiveris.omr.sig.inter.Inter$6.compare(Inter.java:159)
+	at org.audiveris.omr.sig.inter.Inter$6.compare(Inter.java:150)
+	at java.util.TreeMap.put(TreeMap.java:552)
+	at java.util.TreeSet.add(TreeSet.java:255)
+	at org.audiveris.omr.sheet.rhythm.Measure.addInter(Measure.java:241)
+	at org.audiveris.omr.sheet.Part.createDummyPart(Part.java:349)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2531)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1433)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2483)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2017)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2195)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:307)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:117)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:91)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:589)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:785)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:344)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+2017-10-06 15:26:52,601 WARN [91387596]      PartwiseBuilder.java:1379 | Error visiting null
+java.lang.NullPointerException: null
+	at org.audiveris.omr.score.PartwiseBuilder.processKey(PartwiseBuilder.java:1344)
+	at org.audiveris.omr.score.PartwiseBuilder.processKeys(PartwiseBuilder.java:1407)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:1575)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:1988)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2528)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1433)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2483)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2017)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2195)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:307)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:117)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:91)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:589)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:785)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:344)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+2017-10-06 15:26:52,606 WARN [91387596]      PartwiseBuilder.java:1379 | Error visiting null
+java.lang.NullPointerException: null
+	at org.audiveris.omr.score.PartwiseBuilder.processKey(PartwiseBuilder.java:1344)
+	at org.audiveris.omr.score.PartwiseBuilder.processKeys(PartwiseBuilder.java:1407)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:1575)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:1988)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2528)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1433)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2483)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2017)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2195)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:307)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:117)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:91)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:589)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:785)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:344)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+2017-10-06 15:26:52,651 INFO [91387596]        ScoreExporter.java:93   | Score 91387596.mvt2 exported to /Users/stephenn/Documents/workspace/nlsomr/xml_out/91386487/91387596/91387596.mvt2.mxl
+2017-10-06 15:26:52,839 INFO [91387596]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:26:52,839 INFO [91387596]            BasicBook.java:1355 | Book stored as /Users/stephenn/Documents/workspace/nlsomr/xml_out/91386487/91387596/91387596.omr
