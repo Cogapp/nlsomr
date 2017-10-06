@@ -1,0 +1,18 @@
+2017-10-06 16:06:34,425 INFO [91388136]            BasicBook.java:427  | 1 sheet in /Users/stephenn/Documents/workspace/nlsomr/working/91388136.jpg
+2017-10-06 16:06:34,576 INFO []            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 16:06:34,577 INFO []            BasicBook.java:1355 | Book stored as /Users/stephenn/Documents/workspace/nlsomr/xml_out/91386487/91388136/91388136.omr
+2017-10-06 16:06:34,582 INFO []            BasicBook.java:996  | Book reaching PAGE on sheets:[#1]
+2017-10-06 16:06:34,583 INFO [91388136]       StepMonitoring.java:96   | LOAD
+2017-10-06 16:06:34,740 INFO [91388136]            BasicBook.java:911  | Loaded image 1 2000x3056 from /Users/stephenn/Documents/workspace/nlsomr/working/91388136.jpg
+2017-10-06 16:06:34,743 INFO [91388136]            ImageUtil.java:82   | Converting max RGB to gray ...
+2017-10-06 16:06:35,010 INFO [91388136]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 16:06:35,324 INFO [91388136]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 16:06:35,325 INFO [91388136]       StepMonitoring.java:96   | BINARY
+2017-10-06 16:06:36,073 INFO [91388136]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 16:06:36,476 INFO [91388136]              Picture.java:786  | Stored /sheet#1/BINARY.xml
+2017-10-06 16:06:36,478 INFO [91388136]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 16:06:36,481 INFO [91388136]       StepMonitoring.java:96   | SCALE
+2017-10-06 16:06:36,528 INFO [91388136]            ScaleStep.java:87   | Scale{line(3,4,6) interline(16,17,17) beam(13)}
+2017-10-06 16:06:36,531 INFO [91388136]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 16:06:36,535 INFO [91388136]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 16:06:36,538 INFO [91388136]       StepMonitoring.java:96   | GRID

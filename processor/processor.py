@@ -17,11 +17,14 @@ if __name__ == '__main__':
         print "BOOK:"+book
         if not os.path.isfile(inputFolder + book):
             for inputfile in listdir(inputFolder + book):
-                if os.path.isfile(inputFolder+book+"/"+inputfile) and inputfile != ".DS_Store"
+                if os.path.isfile(inputFolder+book+"/"+inputfile) and (inputfile != ".DS_Store"):
                     print "file:"+inputfile
                     #upscale image with imagemagick
-                    if not os.path.isfile(inputFolder + book): #hacky method of skipping files we have alreay processed
+                    if not os.path.isfile(workingFolder + inputfile): #hacky method of skipping files we have alreay processed
                         os.system("convert %s%s/%s   -resize 200%%  %s%s > /dev/null" % (inputFolder,book,inputfile, workingFolder, inputfile))
                         os.system("%saudiveris -batch -export -output \"%s%s\" -- \"%s%s\" > /dev/null" % (audiveris_cli_path, outputFolder, book, workingFolder, inputfile))
-                    for outputItem in listdir(outputFolder + book + os.path.splitext(inputfile)[0]):
-                        if os.path.splitext(inputfile)[0] == "mxl": #there may be multiple mxl files generated so we skip
+                    for outputItem in listdir(outputFolder + book +"/"+ os.path.splitext(inputfile)[0]):
+                        print outputItem+": "+ os.path.splitext(outputItem)[1]
+                        if os.path.splitext(outputItem)[1] == ".mxl": #there may be multiple mxl files generated so we skip
+                            print "DEBUG"
+                            os.system("unzip -d %s%s/%s/%s_extract %s%s/%s/%s" % (outputFolder, book, os.path.splitext(inputfile)[0],os.path.splitext(outputItem)[0], outputFolder, book, os.path.splitext(inputfile)[0],outputItem))

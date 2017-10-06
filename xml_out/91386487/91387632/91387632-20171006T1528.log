@@ -64,3 +64,279 @@
 2017-10-06 15:29:06,804 INFO [91387632]            BasicBook.java:1395 | Stored /book.xml
 2017-10-06 15:29:07,732 INFO [91387632]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
 2017-10-06 15:29:07,735 INFO [91387632]       StepMonitoring.java:96   | TEXTS
+2017-10-06 15:29:09,723 INFO [91387632]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:29:10,606 INFO [91387632]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:29:10,609 INFO [91387632]       StepMonitoring.java:96   | MEASURES
+2017-10-06 15:29:10,618 INFO [91387632]                 Page.java:210  | 16 raw measures: [4 in system#1, 4 in system#2, 4 in system#3, 4 in system#4]
+2017-10-06 15:29:10,619 INFO [91387632]                 Page.java:210  | 11 raw measures: [6 in system#5, 5 in system#6]
+2017-10-06 15:29:10,621 INFO [91387632]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:29:11,501 INFO [91387632]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:29:11,504 INFO [91387632]       StepMonitoring.java:96   | CHORDS
+2017-10-06 15:29:11,527 INFO [91387632]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:29:12,434 INFO [91387632]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:29:12,437 INFO [91387632]       StepMonitoring.java:96   | CURVES
+2017-10-06 15:29:14,229 INFO [91387632]         SlursBuilder.java:157  | Slurs: 34
+2017-10-06 15:29:14,248 INFO [91387632]      SegmentsBuilder.java:113  | Segments: 6
+2017-10-06 15:29:14,255 INFO [91387632]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:29:15,796 INFO [91387632]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:29:15,799 INFO [91387632]       StepMonitoring.java:96   | SYMBOLS
+2017-10-06 15:29:15,958 INFO [91387632]       SymbolsBuilder.java:340  | Symbol parts shrunk from 11 to 7
+2017-10-06 15:29:16,363 INFO [91387632]       SymbolsBuilder.java:340  | Symbol parts shrunk from 20 to 7
+2017-10-06 15:29:18,706 INFO [91387632]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:29:20,422 INFO [91387632]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:29:20,425 INFO [91387632]       StepMonitoring.java:96   | LINKS
+2017-10-06 15:29:20,460 INFO [91387632]        SymbolsLinker.java:323  | No chord above direction SentenceInter{#6296(0.685) s:9 BS-41 Direction} 128
+2017-10-06 15:29:20,461 INFO [91387632]        SymbolsLinker.java:306  | No measure stack for direction SentenceInter{#6301(0.610) s:9 S-48 Direction} J: 100.
+2017-10-06 15:29:20,482 INFO [91387632]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:29:22,232 INFO [91387632]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:29:22,234 INFO [91387632]       StepMonitoring.java:96   | RHYTHMS
+2017-10-06 15:29:22,276 INFO [91387632]           PageRhythm.java:314  | Range{1-16 ts:6/8} Durations avgGuess:1/2 topGuess:1/2 avgValue:0.61 stacks:16 voices:49 Histogram{1/4-7/8 size:6 [1/4=6 3/8=4 1/2=18 5/8=11 3/4=6 7/8=4]}
+2017-10-06 15:29:22,277 INFO [91387632]           PageRhythm.java:221  | S1 Range{1-16 ts:6/8 dur:1/2} should update to 1/2-based time sig?
+2017-10-06 15:29:22,279 INFO [91387632]                Voice.java:257  | S1 MeasureStack#1 Voice #1 too long 1/4
+2017-10-06 15:29:22,279 INFO [91387632]                Voice.java:257  | S1 MeasureStack#1 Voice #2 too long 3/8
+2017-10-06 15:29:22,279 INFO [91387632]                Voice.java:257  | S1 MeasureStack#1 Voice #4 too long 1/8
+2017-10-06 15:29:22,280 INFO [91387632]           StackTuner.java:92   | S1 MeasureStack#1 no correct rhythm
+2017-10-06 15:29:22,281 INFO [91387632]         SlotsBuilder.java:427  | S1 MeasureStack#2 Slot{#4 xOffset=162 timeOffset=1/2 incomings=[#6324] SUSPICIOUS}
+2017-10-06 15:29:22,282 INFO [91387632]                Voice.java:257  | S1 MeasureStack#2 Voice #1 too long 3/8
+2017-10-06 15:29:22,283 INFO [91387632]                Voice.java:257  | S1 MeasureStack#2 Voice #2 too long 1/8
+2017-10-06 15:29:22,283 INFO [91387632]                Voice.java:257  | S1 MeasureStack#2 Voice #3 too long 1/2
+2017-10-06 15:29:22,283 INFO [91387632]                Voice.java:257  | S1 MeasureStack#2 Voice #4 too long 1/8
+2017-10-06 15:29:22,284 INFO [91387632]           StackTuner.java:92   | S1 MeasureStack#2 no correct rhythm
+2017-10-06 15:29:22,286 INFO [91387632]                Voice.java:257  | S1 MeasureStack#3 Voice #1 too long 1/4
+2017-10-06 15:29:22,286 INFO [91387632]                Voice.java:257  | S1 MeasureStack#3 Voice #2 too long 3/8
+2017-10-06 15:29:22,286 INFO [91387632]                Voice.java:257  | S1 MeasureStack#3 Voice #4 too long 1/8
+2017-10-06 15:29:22,287 INFO [91387632]           StackTuner.java:92   | S1 MeasureStack#3 no correct rhythm
+2017-10-06 15:29:22,290 INFO [91387632]                Voice.java:257  | S1 MeasureStack#4 Voice #1 too long 1/4
+2017-10-06 15:29:22,290 INFO [91387632]                Voice.java:257  | S1 MeasureStack#4 Voice #2 too long 3/8
+2017-10-06 15:29:22,291 INFO [91387632]                Voice.java:257  | S1 MeasureStack#4 Voice #4 too long 1/8
+2017-10-06 15:29:22,291 INFO [91387632]           StackTuner.java:92   | S1 MeasureStack#4 no correct rhythm
+2017-10-06 15:29:22,293 INFO [91387632]         SlotsBuilder.java:427  | S2 MeasureStack#5 Slot{#4 xOffset=334 timeOffset=1/2 incomings=[#6370] SUSPICIOUS}
+2017-10-06 15:29:22,294 INFO [91387632]                Voice.java:257  | S2 MeasureStack#5 Voice #1 too long 3/8
+2017-10-06 15:29:22,295 INFO [91387632]                Voice.java:257  | S2 MeasureStack#5 Voice #2 too long 1/8
+2017-10-06 15:29:22,295 INFO [91387632]                Voice.java:257  | S2 MeasureStack#5 Voice #3 too long 1/2
+2017-10-06 15:29:22,296 INFO [91387632]                Voice.java:257  | S2 MeasureStack#5 Voice #4 too long 1/8
+2017-10-06 15:29:22,296 INFO [91387632]           StackTuner.java:92   | S2 MeasureStack#5 no correct rhythm
+2017-10-06 15:29:22,298 INFO [91387632]         SlotsBuilder.java:427  | S2 MeasureStack#6 Slot{#4 xOffset=159 timeOffset=3/8 incomings=[#6399] SUSPICIOUS}
+2017-10-06 15:29:22,299 INFO [91387632]                Voice.java:257  | S2 MeasureStack#6 Voice #1 too long 1/2
+2017-10-06 15:29:22,299 INFO [91387632]                Voice.java:257  | S2 MeasureStack#6 Voice #2 too long 5/8
+2017-10-06 15:29:22,300 INFO [91387632]                Voice.java:257  | S2 MeasureStack#6 Voice #3 too long 3/8
+2017-10-06 15:29:22,301 INFO [91387632]           StackTuner.java:92   | S2 MeasureStack#6 no correct rhythm
+2017-10-06 15:29:22,303 INFO [91387632]         SlotsBuilder.java:427  | S2 MeasureStack#7 Slot{#4 xOffset=177 timeOffset=3/8 incomings=[#6404] SUSPICIOUS}
+2017-10-06 15:29:22,304 INFO [91387632]                Voice.java:257  | S2 MeasureStack#7 Voice #1 too long 1/2
+2017-10-06 15:29:22,305 INFO [91387632]                Voice.java:257  | S2 MeasureStack#7 Voice #2 too long 5/8
+2017-10-06 15:29:22,305 INFO [91387632]                Voice.java:257  | S2 MeasureStack#7 Voice #3 too long 3/8
+2017-10-06 15:29:22,305 INFO [91387632]           StackTuner.java:92   | S2 MeasureStack#7 no correct rhythm
+2017-10-06 15:29:22,307 INFO [91387632]         SlotsBuilder.java:427  | S2 MeasureStack#8 Slot{#5 xOffset=210 timeOffset=1/2 incomings=[#6411#6412] SUSPICIOUS}
+2017-10-06 15:29:22,308 INFO [91387632]         SlotsBuilder.java:427  | S2 MeasureStack#8 Slot{#8 xOffset=321 timeOffset=3/4 incomings=[#6413#6415] SUSPICIOUS}
+2017-10-06 15:29:22,309 INFO [91387632]                Voice.java:257  | S2 MeasureStack#8 Voice #1 too long 1/4
+2017-10-06 15:29:22,309 INFO [91387632]                Voice.java:257  | S2 MeasureStack#8 Voice #2 too long 1/2
+2017-10-06 15:29:22,309 INFO [91387632]                Voice.java:257  | S2 MeasureStack#8 Voice #3 too long 1/2
+2017-10-06 15:29:22,310 INFO [91387632]           StackTuner.java:92   | S2 MeasureStack#8 no correct rhythm
+2017-10-06 15:29:22,315 INFO [91387632]                Voice.java:257  | S3 MeasureStack#9 Voice #1 too long 1/4
+2017-10-06 15:29:22,315 INFO [91387632]                Voice.java:257  | S3 MeasureStack#9 Voice #2 too long 1/8
+2017-10-06 15:29:22,315 INFO [91387632]                Voice.java:257  | S3 MeasureStack#9 Voice #3 too long 3/8
+2017-10-06 15:29:22,316 INFO [91387632]           StackTuner.java:92   | S3 MeasureStack#9 no correct rhythm
+2017-10-06 15:29:22,317 INFO [91387632]         SlotsBuilder.java:427  | S3 MeasureStack#10 Slot{#5 xOffset=214 timeOffset=1/2 incomings=[#6451] SUSPICIOUS}
+2017-10-06 15:29:22,318 INFO [91387632]         SlotsBuilder.java:427  | S3 MeasureStack#10 Slot{#8 xOffset=319 timeOffset=3/4 incomings=[#6452] SUSPICIOUS}
+2017-10-06 15:29:22,319 INFO [91387632]                Voice.java:257  | S3 MeasureStack#10 Voice #1 too long 1/4
+2017-10-06 15:29:22,319 INFO [91387632]                Voice.java:257  | S3 MeasureStack#10 Voice #3 too long 1/2
+2017-10-06 15:29:22,319 INFO [91387632]           StackTuner.java:92   | S3 MeasureStack#10 no correct rhythm
+2017-10-06 15:29:22,321 INFO [91387632]         SlotsBuilder.java:427  | S3 MeasureStack#11 Slot{#5 xOffset=215 timeOffset=1/2 incomings=[#6457#6458] SUSPICIOUS}
+2017-10-06 15:29:22,322 INFO [91387632]         SlotsBuilder.java:427  | S3 MeasureStack#11 Slot{#8 xOffset=317 timeOffset=3/4 incomings=[#6459] SUSPICIOUS}
+2017-10-06 15:29:22,322 INFO [91387632]                Voice.java:257  | S3 MeasureStack#11 Voice #1 too long 1/4
+2017-10-06 15:29:22,322 INFO [91387632]                Voice.java:257  | S3 MeasureStack#11 Voice #2 too long 1/2
+2017-10-06 15:29:22,322 INFO [91387632]                Voice.java:257  | S3 MeasureStack#11 Voice #3 too long 1/4
+2017-10-06 15:29:22,323 INFO [91387632]           StackTuner.java:92   | S3 MeasureStack#11 no correct rhythm
+2017-10-06 15:29:22,324 INFO [91387632]         SlotsBuilder.java:427  | S3 MeasureStack#12 Slot{#5 xOffset=208 timeOffset=1/2 incomings=[#6464#6465] SUSPICIOUS}
+2017-10-06 15:29:22,325 INFO [91387632]         SlotsBuilder.java:427  | S3 MeasureStack#12 Slot{#8 xOffset=306 timeOffset=3/4 incomings=[#6466] SUSPICIOUS}
+2017-10-06 15:29:22,325 INFO [91387632]                Voice.java:257  | S3 MeasureStack#12 Voice #1 too long 1/4
+2017-10-06 15:29:22,326 INFO [91387632]                Voice.java:257  | S3 MeasureStack#12 Voice #2 too long 1/2
+2017-10-06 15:29:22,326 INFO [91387632]                Voice.java:257  | S3 MeasureStack#12 Voice #3 too long 1/4
+2017-10-06 15:29:22,327 INFO [91387632]           StackTuner.java:92   | S3 MeasureStack#12 no correct rhythm
+2017-10-06 15:29:22,328 INFO [91387632]         SlotsBuilder.java:427  | S4 MeasureStack#13 Slot{#6 xOffset=386 timeOffset=1/2 incomings=[#6496#6497] SUSPICIOUS}
+2017-10-06 15:29:22,332 INFO [91387632]         SlotsBuilder.java:427  | S4 MeasureStack#13 Slot{#9 xOffset=489 timeOffset=3/4 incomings=[#6498] SUSPICIOUS}
+2017-10-06 15:29:22,332 INFO [91387632]                Voice.java:257  | S4 MeasureStack#13 Voice #1 too long 1/4
+2017-10-06 15:29:22,333 INFO [91387632]                Voice.java:257  | S4 MeasureStack#13 Voice #2 too long 1/2
+2017-10-06 15:29:22,333 INFO [91387632]                Voice.java:257  | S4 MeasureStack#13 Voice #3 too long 1/4
+2017-10-06 15:29:22,333 INFO [91387632]           StackTuner.java:92   | S4 MeasureStack#13 no correct rhythm
+2017-10-06 15:29:22,335 INFO [91387632]         SlotsBuilder.java:427  | S4 MeasureStack#14 Slot{#5 xOffset=212 timeOffset=1/2 incomings=[#6502#6503] SUSPICIOUS}
+2017-10-06 15:29:22,336 INFO [91387632]         SlotsBuilder.java:427  | S4 MeasureStack#14 Slot{#8 xOffset=314 timeOffset=3/4 incomings=[#6504] SUSPICIOUS}
+2017-10-06 15:29:22,337 INFO [91387632]                Voice.java:257  | S4 MeasureStack#14 Voice #1 too long 1/4
+2017-10-06 15:29:22,337 INFO [91387632]                Voice.java:257  | S4 MeasureStack#14 Voice #2 too long 3/8
+2017-10-06 15:29:22,338 INFO [91387632]                Voice.java:257  | S4 MeasureStack#14 Voice #3 too long 1/2
+2017-10-06 15:29:22,338 INFO [91387632]           StackTuner.java:92   | S4 MeasureStack#14 no correct rhythm
+2017-10-06 15:29:22,340 INFO [91387632]                Voice.java:257  | S4 MeasureStack#15 Voice #1 too long 1/4
+2017-10-06 15:29:22,340 INFO [91387632]                Voice.java:257  | S4 MeasureStack#15 Voice #2 too long 1/8
+2017-10-06 15:29:22,341 INFO [91387632]           StackTuner.java:92   | S4 MeasureStack#15 no correct rhythm
+2017-10-06 15:29:22,343 INFO [91387632]                Voice.java:257  | S4 MeasureStack#16 Voice #1 too long 1/4
+2017-10-06 15:29:22,344 INFO [91387632]                Voice.java:257  | S4 MeasureStack#16 Voice #2 too long 1/8
+2017-10-06 15:29:22,344 INFO [91387632]           StackTuner.java:92   | S4 MeasureStack#16 no correct rhythm
+2017-10-06 15:29:22,354 INFO [91387632]           PageRhythm.java:314  | Range{1-11 ts:3/4} Durations avgGuess:3/4 topGuess:1/2 avgValue:0.65 stacks:11 voices:34 Histogram{1/4-1 size:5 [1/4=2 1/2=16 5/8=1 3/4=11 1=4]}
+2017-10-06 15:29:22,356 INFO [91387632]         SlotsBuilder.java:427  | S5 MeasureStack#2 Slot{#3 xOffset=91 timeOffset=1/2 incomings=[#6536] SUSPICIOUS}
+2017-10-06 15:29:22,356 INFO [91387632]                Voice.java:257  | S5 MeasureStack#2 Voice #1 too long 1/4
+2017-10-06 15:29:22,356 INFO [91387632]                Voice.java:257  | S5 MeasureStack#2 Voice #2 too long 1/4
+2017-10-06 15:29:22,358 INFO [91387632]                Voice.java:257  | S5 MeasureStack#2 Voice #3 too long 1/4
+2017-10-06 15:29:22,359 INFO [91387632]           StackTuner.java:92   | S5 MeasureStack#2 no correct rhythm
+2017-10-06 15:29:22,363 INFO [91387632]         SlotsBuilder.java:427  | S6 MeasureStack#7 Slot{#3 xOffset=288 timeOffset=1/2 incomings=[#6572] SUSPICIOUS}
+2017-10-06 15:29:22,364 INFO [91387632]                Voice.java:257  | S6 MeasureStack#7 Voice #1 too long 1/4
+2017-10-06 15:29:22,365 INFO [91387632]                Voice.java:257  | S6 MeasureStack#7 Voice #2 too long 1/4
+2017-10-06 15:29:22,365 INFO [91387632]           StackTuner.java:92   | S6 MeasureStack#7 no correct rhythm
+2017-10-06 15:29:22,367 INFO [91387632]                Voice.java:257  | S6 MeasureStack#8 Voice #1 too long 1/4
+2017-10-06 15:29:22,368 INFO [91387632]                Voice.java:257  | S6 MeasureStack#8 Voice #3 too long 1/4
+2017-10-06 15:29:22,368 INFO [91387632]           StackTuner.java:92   | S6 MeasureStack#8 no correct rhythm
+2017-10-06 15:29:22,371 INFO [91387632]                Voice.java:257  | S6 MeasureStack#9 Voice #1 too long 1/4
+2017-10-06 15:29:22,371 INFO [91387632]                Voice.java:257  | S6 MeasureStack#9 Voice #2 too long 1/4
+2017-10-06 15:29:22,371 INFO [91387632]           StackTuner.java:92   | S6 MeasureStack#9 no correct rhythm
+2017-10-06 15:29:22,372 INFO [91387632]         SlotsBuilder.java:427  | S6 MeasureStack#10 Slot{#4 xOffset=214 timeOffset=1/2 incomings=[#6582#6583] SUSPICIOUS}
+2017-10-06 15:29:22,375 INFO [91387632]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:29:24,144 INFO [91387632]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:29:24,146 INFO [91387632]       StepMonitoring.java:96   | PAGE
+2017-10-06 15:29:24,150 INFO [91387632]                Voice.java:257  | S1 MeasureStack#1 Voice #1 too long 1/4
+2017-10-06 15:29:24,150 INFO [91387632]                Voice.java:257  | S1 MeasureStack#1 Voice #2 too long 3/8
+2017-10-06 15:29:24,151 INFO [91387632]                Voice.java:257  | S1 MeasureStack#1 Voice #4 too long 1/8
+2017-10-06 15:29:24,151 INFO [91387632]                Voice.java:257  | S1 MeasureStack#2 Voice #1 too long 3/8
+2017-10-06 15:29:24,151 INFO [91387632]                Voice.java:257  | S1 MeasureStack#2 Voice #2 too long 1/8
+2017-10-06 15:29:24,151 INFO [91387632]                Voice.java:257  | S1 MeasureStack#2 Voice #3 too long 1/2
+2017-10-06 15:29:24,151 INFO [91387632]                Voice.java:257  | S1 MeasureStack#2 Voice #4 too long 1/8
+2017-10-06 15:29:24,152 INFO [91387632]                Voice.java:257  | S1 MeasureStack#3 Voice #1 too long 1/4
+2017-10-06 15:29:24,152 INFO [91387632]                Voice.java:257  | S1 MeasureStack#3 Voice #2 too long 3/8
+2017-10-06 15:29:24,152 INFO [91387632]                Voice.java:257  | S1 MeasureStack#3 Voice #4 too long 1/8
+2017-10-06 15:29:24,152 INFO [91387632]                Voice.java:257  | S1 MeasureStack#4 Voice #1 too long 1/4
+2017-10-06 15:29:24,152 INFO [91387632]                Voice.java:257  | S1 MeasureStack#4 Voice #2 too long 3/8
+2017-10-06 15:29:24,153 INFO [91387632]                Voice.java:257  | S1 MeasureStack#4 Voice #4 too long 1/8
+2017-10-06 15:29:24,153 INFO [91387632]                Voice.java:257  | S2 MeasureStack#5 Voice #1 too long 3/8
+2017-10-06 15:29:24,153 INFO [91387632]                Voice.java:257  | S2 MeasureStack#5 Voice #2 too long 1/8
+2017-10-06 15:29:24,153 INFO [91387632]                Voice.java:257  | S2 MeasureStack#5 Voice #3 too long 1/2
+2017-10-06 15:29:24,153 INFO [91387632]                Voice.java:257  | S2 MeasureStack#5 Voice #4 too long 1/8
+2017-10-06 15:29:24,154 INFO [91387632]                Voice.java:257  | S2 MeasureStack#6 Voice #1 too long 1/2
+2017-10-06 15:29:24,154 INFO [91387632]                Voice.java:257  | S2 MeasureStack#6 Voice #2 too long 5/8
+2017-10-06 15:29:24,154 INFO [91387632]                Voice.java:257  | S2 MeasureStack#6 Voice #3 too long 3/8
+2017-10-06 15:29:24,154 INFO [91387632]                Voice.java:257  | S2 MeasureStack#7 Voice #1 too long 1/2
+2017-10-06 15:29:24,154 INFO [91387632]                Voice.java:257  | S2 MeasureStack#7 Voice #2 too long 5/8
+2017-10-06 15:29:24,155 INFO [91387632]                Voice.java:257  | S2 MeasureStack#7 Voice #3 too long 3/8
+2017-10-06 15:29:24,155 INFO [91387632]                Voice.java:257  | S2 MeasureStack#8 Voice #1 too long 1/4
+2017-10-06 15:29:24,155 INFO [91387632]                Voice.java:257  | S2 MeasureStack#8 Voice #2 too long 1/2
+2017-10-06 15:29:24,155 INFO [91387632]                Voice.java:257  | S2 MeasureStack#8 Voice #3 too long 1/2
+2017-10-06 15:29:24,155 INFO [91387632]                Voice.java:257  | S3 MeasureStack#9 Voice #1 too long 1/4
+2017-10-06 15:29:24,156 INFO [91387632]                Voice.java:257  | S3 MeasureStack#9 Voice #2 too long 1/8
+2017-10-06 15:29:24,156 INFO [91387632]                Voice.java:257  | S3 MeasureStack#9 Voice #3 too long 3/8
+2017-10-06 15:29:24,156 INFO [91387632]                Voice.java:257  | S3 MeasureStack#10 Voice #1 too long 1/4
+2017-10-06 15:29:24,156 INFO [91387632]                Voice.java:257  | S3 MeasureStack#10 Voice #3 too long 1/2
+2017-10-06 15:29:24,156 INFO [91387632]                Voice.java:257  | S3 MeasureStack#11 Voice #1 too long 1/4
+2017-10-06 15:29:24,157 INFO [91387632]                Voice.java:257  | S3 MeasureStack#11 Voice #2 too long 1/2
+2017-10-06 15:29:24,157 INFO [91387632]                Voice.java:257  | S3 MeasureStack#11 Voice #3 too long 1/4
+2017-10-06 15:29:24,157 INFO [91387632]                Voice.java:257  | S3 MeasureStack#12 Voice #1 too long 1/4
+2017-10-06 15:29:24,157 INFO [91387632]                Voice.java:257  | S3 MeasureStack#12 Voice #2 too long 1/2
+2017-10-06 15:29:24,157 INFO [91387632]                Voice.java:257  | S3 MeasureStack#12 Voice #3 too long 1/4
+2017-10-06 15:29:24,158 INFO [91387632]                Voice.java:257  | S4 MeasureStack#13 Voice #1 too long 1/4
+2017-10-06 15:29:24,158 INFO [91387632]                Voice.java:257  | S4 MeasureStack#13 Voice #2 too long 1/2
+2017-10-06 15:29:24,158 INFO [91387632]                Voice.java:257  | S4 MeasureStack#13 Voice #3 too long 1/4
+2017-10-06 15:29:24,158 INFO [91387632]                Voice.java:257  | S4 MeasureStack#14 Voice #1 too long 1/4
+2017-10-06 15:29:24,158 INFO [91387632]                Voice.java:257  | S4 MeasureStack#14 Voice #2 too long 3/8
+2017-10-06 15:29:24,159 INFO [91387632]                Voice.java:257  | S4 MeasureStack#14 Voice #3 too long 1/2
+2017-10-06 15:29:24,159 INFO [91387632]                Voice.java:257  | S4 MeasureStack#15 Voice #1 too long 1/4
+2017-10-06 15:29:24,159 INFO [91387632]                Voice.java:257  | S4 MeasureStack#15 Voice #2 too long 1/8
+2017-10-06 15:29:24,159 INFO [91387632]                Voice.java:257  | S4 MeasureStack#16 Voice #1 too long 1/4
+2017-10-06 15:29:24,159 INFO [91387632]                Voice.java:257  | S4 MeasureStack#16 Voice #2 too long 1/8
+2017-10-06 15:29:24,160 INFO [91387632]                 Part.java:267  | Could not left-connect slur#6916
+2017-10-06 15:29:24,160 INFO [91387632]                Voice.java:257  | S5 MeasureStack#2 Voice #1 too long 1/4
+2017-10-06 15:29:24,161 INFO [91387632]                Voice.java:257  | S5 MeasureStack#2 Voice #2 too long 1/4
+2017-10-06 15:29:24,161 INFO [91387632]                Voice.java:257  | S5 MeasureStack#2 Voice #3 too long 1/4
+2017-10-06 15:29:24,161 INFO [91387632]                Voice.java:257  | S6 MeasureStack#7 Voice #1 too long 1/4
+2017-10-06 15:29:24,161 INFO [91387632]                Voice.java:257  | S6 MeasureStack#7 Voice #2 too long 1/4
+2017-10-06 15:29:24,162 INFO [91387632]                Voice.java:257  | S6 MeasureStack#8 Voice #1 too long 1/4
+2017-10-06 15:29:24,162 INFO [91387632]                Voice.java:257  | S6 MeasureStack#8 Voice #3 too long 1/4
+2017-10-06 15:29:24,162 INFO [91387632]                Voice.java:257  | S6 MeasureStack#9 Voice #1 too long 1/4
+2017-10-06 15:29:24,162 INFO [91387632]                Voice.java:257  | S6 MeasureStack#9 Voice #2 too long 1/4
+2017-10-06 15:29:24,165 INFO [91387632]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:29:25,892 INFO [91387632]           BasicSheet.java:979  | Stored /sheet#1/sheet#1.xml
+2017-10-06 15:29:25,895 INFO [91387632]            BasicStub.java:723  | Sheet{91387632} disposed
+2017-10-06 15:29:26,984 INFO [91387632]            BasicStub.java:449  | Loaded /sheet#1/sheet#1.xml
+2017-10-06 15:29:26,986 INFO [91387632]            BasicBook.java:1133 | Scores built: 2
+2017-10-06 15:29:28,053 WARN [91387632]      PartwiseBuilder.java:1379 | Error visiting null
+java.lang.NullPointerException: null
+	at org.audiveris.omr.score.PartwiseBuilder.processKey(PartwiseBuilder.java:1344)
+	at org.audiveris.omr.score.PartwiseBuilder.processKeys(PartwiseBuilder.java:1407)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:1575)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:1988)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2528)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1433)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2483)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2017)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2195)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:307)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:117)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:91)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:589)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:785)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:344)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+2017-10-06 15:29:28,134 INFO [91387632]        ScoreExporter.java:93   | Score 91387632.mvt1 exported to /Users/stephenn/Documents/workspace/nlsomr/xml_out/91386487/91387632/91387632.mvt1.mxl
+2017-10-06 15:29:28,141 WARN [91387632]      PartwiseBuilder.java:1970 | Error visiting HeadInter{#5376(0.413/0.659) e#6563 s:11 p:3.00 NOTEHEAD_BLACK_SMALL}
+java.lang.NullPointerException: null
+	at org.audiveris.omr.sig.inter.AbstractNoteInter.getStep(AbstractNoteInter.java:256)
+	at org.audiveris.omr.score.PartwiseBuilder.processNote(PartwiseBuilder.java:1796)
+	at org.audiveris.omr.score.PartwiseBuilder.processChord(PartwiseBuilder.java:1056)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:1639)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:1988)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2528)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1433)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2483)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2017)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2195)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:307)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:117)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:91)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:589)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:785)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:344)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+2017-10-06 15:29:28,142 WARN [91387632]      PartwiseBuilder.java:1970 | Error visiting HeadInter{#5338(0.240/0.522) e#6563 s:11 p:2.00 NOTEHEAD_BLACK_SMALL}
+java.lang.NullPointerException: null
+	at org.audiveris.omr.sig.inter.AbstractNoteInter.getStep(AbstractNoteInter.java:256)
+	at org.audiveris.omr.score.PartwiseBuilder.processNote(PartwiseBuilder.java:1796)
+	at org.audiveris.omr.score.PartwiseBuilder.processChord(PartwiseBuilder.java:1056)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:1639)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:1988)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2528)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1433)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2483)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2017)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2195)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:307)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:117)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:91)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:589)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:785)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:344)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+2017-10-06 15:29:28,143 WARN [91387632]      PartwiseBuilder.java:1970 | Error visiting HeadInter{#5316(0.281/0.559) e#6563 s:11 p:1.00 NOTEHEAD_BLACK_SMALL}
+java.lang.NullPointerException: null
+	at org.audiveris.omr.sig.inter.AbstractNoteInter.getStep(AbstractNoteInter.java:256)
+	at org.audiveris.omr.score.PartwiseBuilder.processNote(PartwiseBuilder.java:1796)
+	at org.audiveris.omr.score.PartwiseBuilder.processChord(PartwiseBuilder.java:1056)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:1639)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:1988)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2528)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1433)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2483)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2017)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2195)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:307)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:117)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:91)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:589)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:785)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:344)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+2017-10-06 15:29:28,158 INFO [91387632]        ScoreExporter.java:93   | Score 91387632.mvt2 exported to /Users/stephenn/Documents/workspace/nlsomr/xml_out/91386487/91387632/91387632.mvt2.mxl
+2017-10-06 15:29:28,341 INFO [91387632]            BasicBook.java:1395 | Stored /book.xml
+2017-10-06 15:29:28,341 INFO [91387632]            BasicBook.java:1355 | Book stored as /Users/stephenn/Documents/workspace/nlsomr/xml_out/91386487/91387632/91387632.omr
