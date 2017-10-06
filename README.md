@@ -9,4 +9,4 @@ Outputs in musicXml format.
 
 Source data: http://digital.nls.uk/special-collections-of-printed-music/
 
-images require minium 10px between staff lines. This requires upscaling source images x2.
+images require minium 10px between staff lines. This requires upscaling source images x2, which will be accompished by imagemagick.
