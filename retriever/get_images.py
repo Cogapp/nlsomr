@@ -9,9 +9,18 @@ BASE_URL = 'http://digital.nls.uk/special-collections-of-printed-music/archive/'
 
 book_id = '91386487'
 
-def get_pages_for_book(book_url):
+def get_pages_for_book(book_id):
     book_url = "%s%s" % (BASE_URL, book_id)
-    pass
+    print("retrieving book %s" % book_url, file=sys.stderr)
+    response = urllib.request.urlopen(book_url)
+    data = response.read()  # a `bytes` object
+    html_page = data.decode('utf-8')
+    soup = BeautifulSoup(html_page, "html.parser")
+    for select in soup.findAll('select', id='page_url'):
+        for option in select.findAll('option',{"value":True}):
+            url = option['value']
+            page_id = url.split('/')[-1]
+            get_image_for_page(book_id, page_id)
 
 def get_image_for_page(book_id, page_id):
     page_url = "%s%s" % (BASE_URL, page_id)
@@ -37,4 +46,5 @@ def get_image_for_page(book_id, page_id):
                 out_file.write(data)
 
 if __name__ == '__main__':
-    get_image_for_page(book_id, book_id)
+    #get_image_for_page(book_id, book_id)
+    get_pages_for_book(book_id)
