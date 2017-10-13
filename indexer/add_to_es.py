@@ -69,5 +69,14 @@ def except_handler(request, exception):
 
 
 if __name__ == "__main__":
-    json = document_from_xml('91386487','91386636')
-    insert_into_elasticsearch('91386487','91386636', json)
+    json = document_from_xml('91386487', '91386636')
+    insert_into_elasticsearch('91386487', '91386636', json)
+
+    json = document_from_xml('91386487', '91386780')
+    insert_into_elasticsearch('91386487', '91386780', json)
+
+    json = document_from_xml('91386487', '91386816')
+    insert_into_elasticsearch('91386487', '91386816', json)
+
+    json = document_from_xml('91386487', '91386864')
+    insert_into_elasticsearch('91386487', '91386864', json)
