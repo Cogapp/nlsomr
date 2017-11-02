@@ -18,8 +18,9 @@ const MovieHitsGridItem = (props)=> {
   const {bemBlocks, result} = props
   console.log(result)
   let page_id = result._source.page.children[0].page_id
+  let extract_id = result._id
   let img_src = "/images/91386487/" + page_id + ".jpg"
-  let wav = "/wavs/" + page_id + ".wav"
+  let wav = "/wavs/" + extract_id + ".wav"
   let url = "http://digital.nls.uk/special-collections-of-printed-music/archive/" + page_id
   const source:any = extend({}, result._source, result.highlight)
   return (
