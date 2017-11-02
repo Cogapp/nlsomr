@@ -49,7 +49,7 @@ def get_image_for_page(book_id, page_id):
                 out_file.write(data)
 
             thumb_img = small_img.replace('dcn3/', 'dcn4/')
-            thumb_img = thumb_img.replace('4.jpg', '4.jpg')
+            thumb_img = thumb_img.replace('3.jpg', '4.jpg')
 
             # create thumb directory if necessary
             directory = '../searchkit/public/images/%s' % book_id
