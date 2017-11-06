@@ -7,7 +7,7 @@ mscore_path = "/Applications/MuseScore\ 2.app/Contents/MacOS/"
 
 baseFolder = "/Users/stephenn/Documents/workspace/nlsomr/"
 inputFolder = baseFolder+"images/"
-outputFolder = baseFolder+"xml_out/"
+outputFolder = baseFolder+"searchkit/public/mxml/"
 workingFolder = baseFolder+"working/"
 wavFolder = baseFolder+"searchkit/public/wavs/"
 

@@ -18,7 +18,7 @@ from os import listdir
 
 es = Elasticsearch(["https://search-cogapp-x7o3xw2klqvyv7arrujtmzljpi.eu-west-1.es.amazonaws.com:443"])
 
-BASE_XML_PATH = '../xml_out'
+BASE_XML_PATH = '../searchkit/public/mxml'
 
 def document_from_xml(book_id,page_id,filename):
     json_string = '';

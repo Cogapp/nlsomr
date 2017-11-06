@@ -11,7 +11,7 @@ import { SearchkitManager,SearchkitProvider,
 import './index.css'
 
 //const host = "http://demo.searchkit.co/api/movies"
-const host = "https://search-cogapp-x7o3xw2klqvyv7arrujtmzljpi.eu-west-1.es.amazonaws.com:443/nls-omr"
+const host = "http://e.cogapp.com:80/nls-omr"
 const searchkit = new SearchkitManager(host)
 
 const MovieHitsGridItem = (props)=> {
@@ -19,8 +19,9 @@ const MovieHitsGridItem = (props)=> {
   console.log(result)
   let page_id = result._source.page.children[0].page_id
   let extract_id = result._id
-  let img_src = "/images/91386487/" + page_id + ".jpg"
-  let wav = "/wavs/" + extract_id + ".wav"
+  let img_src = "images/91386487/" + page_id + ".jpg"
+  let wav = "wavs/" + extract_id + ".wav"
+  let mxml = "mxml/91386487/" + page_id + "/" + extract_id + ".mxl"
   let url = "http://digital.nls.uk/special-collections-of-printed-music/archive/" + page_id
   const source:any = extend({}, result._source, result.highlight)
   return (
@@ -31,6 +32,7 @@ const MovieHitsGridItem = (props)=> {
         </div>
       </a>
       <br/><a href={wav}>Play music!</a>
+      <br/><a href={mxml}>Download as musicXML</a>
     </div>
   )
 }
@@ -60,7 +62,7 @@ class App extends Component {
         <Layout>
           <TopBar>
             <div className="my-logo">Searchkit Acme co</div>
-            <SearchBox autofocus={true} searchOnChange={true} queryFields={["content"]}/>
+            <SearchBox autofocus={true} searchOnChange={true} queryFields={["page_id"]}/>
           </TopBar>
 
         <LayoutBody>

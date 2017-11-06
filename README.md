@@ -26,7 +26,7 @@ images require minium 10px between staff lines. This requires upscaling source i
 * pip3 install xmljson
 * pip3 install lxml
 * install MuseScore (https://musescore.org/en/download)
-* git clone https://github.com/audiveris
+* git clone https://github.com/audiveris (requires JVM 8 to run)
 * update working paths at the top of processor/processor.py
 * cd retriever
 * python3 get_images.py
@@ -38,29 +38,36 @@ images require minium 10px between staff lines. This requires upscaling source i
 * npm install
 * npm start
 * visit localhost:3000 in browser
+* To create a production build, use npm run build.
+* Upload to ocelot at /home/extranets/labs/htdocs/nls-omr
+* access at http://labs.cogapp.com/nls-omr
 
 
 
 
 all items
+multi-part items index as seperate things linking to single item
+move xml_out to searchkit/public/mxml
+find bigger thumbnails
 download mxml link
+
+
+
 search on
 * title/text extraction
 * note sequence
 
-multi-part items index as seperate things linking to single item
+upload to labs.cogapp.com and get running
+make link on http://labs.cogapp.com/
+make info page like examples http://labs.cogapp.com/iiif-ml/
 
-output as midi?
 
-find bigger thumbnails
-
-make info page like examples on labs.cogapp.com
-
-move xml_out to searchkit/public/mxml
 
 
 split lines by octive to extract
 
 replace full extract with title, id of parent. lists of notes/split by octave
 
+
+output as midi?
 
