@@ -1,20 +1,22 @@
 {
-  "name": "searchkit-starter",
-  "version": "0.1.0",
-  "private": true,
-  "devDependencies": {
-    "react-scripts": "^1.0.11"
-  },
-  "dependencies": {
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2",
-    "searchkit": "^2.1.1"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  },
-  "homepage": "http://labs.cogapp.com/nls-omr"
+    "name": "searchkit-starter",
+    "version": "0.1.0",
+    "private": true,
+    "devDependencies": {
+        "react-scripts": "^1.0.11"
+    },
+    "dependencies": {
+        "react": "^15.4.2",
+        "react-dom": "^15.4.2",
+        "react-modal": "^1.7.7",
+        "react-router-dom": "^4.1.1",
+        "searchkit": "^2.1.1"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test --env=jsdom",
+        "eject": "react-scripts eject"
+    },
+    "homepage": "http://labs.cogapp.com/nls-omr"
 }

@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { extend } from 'lodash'
+import ReactModal from 'react-modal'
 import { SearchkitManager,SearchkitProvider,
   SearchBox, RefinementListFilter, Pagination,
   HierarchicalMenuFilter, HitsStats, SortingSelector, NoHits,
@@ -55,33 +56,72 @@ const MovieHitsListItem = (props)=> {
   )
 }
 
+const Modal = () => {
+  <ReactModal isOpen={this.state.showModal} contentLabel="About" className="Modal" overlayClassName="Overlay" style={modalStyles}>
+    <h2>About this project</h2>
+    <p>This is a hackday project from <a href="https://cogapp.com">Cogapp</a> in association with <a href="http://nls.org.uk">The National Library of Scotland</a>, produced as part of Coghack3, Sept 2017</p>
+    <p>The project is an investigation into the use of Optical Musical Recognition software to extract meaning from musical scores in the archive.</p>
+    <p>All source material is taken from the <a href="https://blog.cogapp.com/from-machine-learning-to-human-learning-ebddd6a9929a">antiquarian books archive</a> at the National Library of Scotland</p>
+    <p>Software used in this project is as follows:</p>
+    <ul>
+    	<li>Image pre-processing: <a href="https://www.imagemagick.org">imagemagick</a></li>
+    	<li>Optical Musical Recognition: <a href="https://github.com/audiveris">Audiveris</a></li>
+    	<li>MusicXML to Wav conversion: <a href="https://musescore.org/">MuseScore</a></li>
+    	<li>Search Engine: <a href="http://www.elastic.co/">Elasticsearch</a></li>
+    	<li>Front end framework: <a href="http://www.searchkit.co/">Searchkit</a></li>
+    </ul>
+    <button onClick={this.handleCloseModal}>Close</button>
+  </ReactModal>
+}
+
+
 class App extends Component {
+  constructor () {
+    super();
+    this.state = {
+      showModal: false
+    };
+    
+    this.handleOpenModal = this.handleOpenModal.bind(this);
+    this.handleCloseModal = this.handleCloseModal.bind(this);
+  } 
+  
+  handleOpenModal () {
+    this.setState({ showModal: true });
+  }
+  
+  handleCloseModal () {
+    this.setState({ showModal: false });
+  }
+  
   render() {
     return (
       <SearchkitProvider searchkit={searchkit}>
         <Layout>
           <TopBar>
-            <div className="my-logo">Searchkit Acme co</div>
+            <div className="my-logo"><a href="https://cogapp.com"><img src="cogapp-logo.jpg" alt="Cogapp.com" /></a></div>
             <SearchBox autofocus={true} searchOnChange={true} queryFields={["page_id"]}/>
+            <ReactModal isOpen={this.state.showModal} contentLabel="About"className="Modal" overlayClassName="Overlay" style={modalStyles}>
+              <h2>About this project</h2>
+				<p>This is a hackday project from <a href="https://cogapp.com">Cogapp</a> in association with <a href="http://nls.org.uk">The National Library of Scotland</a>, produced as part of Coghack3, Sept 2017</p>
+				<p>The project is an investigation into the use of Optical Musical Recognition software to extract meaning from musical scores in the archive.</p>
+				<p>All source material is taken from the <a href="https://blog.cogapp.com/from-machine-learning-to-human-learning-ebddd6a9929a">antiquarian books archive</a> at the National Library of Scotland</p>
+				<p>Software used in this project is as follows:</p>
+				<ul>
+					<li>Image pre-processing: <a href="https://www.imagemagick.org">imagemagick</a></li>
+					<li>Optical Musical Recognition: <a href="https://github.com/audiveris">Audiveris</a></li>
+					<li>MusicXML to Wav conversion: <a href="https://musescore.org/">MuseScore</a></li>
+					<li>Search Engine: <a href="http://www.elastic.co/">Elasticsearch</a></li>
+					<li>Front end framework: <a href="http://www.searchkit.co/">Searchkit</a></li>
+				</ul>
+              <button onClick={this.handleCloseModal}>Close</button>
+
+            </ReactModal>
           </TopBar>
 
         <LayoutBody>
 
-          <SideBar>
-            <HierarchicalMenuFilter fields={["type.raw", "genres.raw"]} title="Categories" id="categories"/>
-            <DynamicRangeFilter field="metaScore" id="metascore" title="Metascore" rangeFormatter={(count)=> count + "*"}/>
-            <RangeFilter min={0} max={10} field="imdbRating" id="imdbRating" title="IMDB Rating" showHistogram={true}/>
-            <InputFilter id="writers" searchThrottleTime={500} title="Writers" placeholder="Search writers" searchOnChange={true} queryFields={["writers"]} />
-            <RefinementListFilter id="actors" title="Actors" field="actors.raw" size={10}/>
-            <RefinementListFilter translations={{"facets.view_more":"View more writers"}} id="writers" title="Writers" field="writers.raw" operator="OR" size={10}/>
-            <RefinementListFilter id="countries" title="Countries" field="countries.raw" operator="OR" size={10}/>
-            <NumericRefinementListFilter id="runtimeMinutes" title="Length" field="runtimeMinutes" options={[
-              {title:"All"},
-              {title:"up to 20", from:0, to:20},
-              {title:"21 to 60", from:21, to:60},
-              {title:"60 or more", from:61, to:1000}
-            ]}/>
-          </SideBar>
+
           <LayoutResults>
             <ActionBar>
 
@@ -89,22 +129,20 @@ class App extends Component {
                 <HitsStats translations={{
                   "hitstats.results_found":"{hitCount} results found"
                 }}/>
-                <ViewSwitcherToggle/>
-                <SortingSelector options={[
-                  {label:"Relevance", field:"_score", order:"desc"},
-                  {label:"Latest Releases", field:"released", order:"desc"},
-                  {label:"Earliest Releases", field:"released", order:"asc"}
-                ]}/>
+
               </ActionBarRow>
 
-              <ActionBarRow>
+              
+               <ActionBarRow>
                 <GroupedSelectedFilters/>
                 <ResetFilters/>
+                <div className="about-link"><a onClick={this.handleOpenModal}>About this project</a></div>
               </ActionBarRow>
+
 
             </ActionBar>
             <ViewSwitcherHits
-                hitsPerPage={12} highlightFields={["title","plot"]}
+                hitsPerPage={50} highlightFields={["title","plot"]}
                 //sourceFilter={["plot", "title", "poster", "imdbId", "imdbRating", "year"]}
                 hitComponents={[
                   {key:"grid", title:"Grid", itemComponent:MovieHitsGridItem, defaultOption:true},
@@ -120,6 +158,23 @@ class App extends Component {
         </Layout>
       </SearchkitProvider>
     );
+  }
+}
+
+
+const modalStyles={
+  overlay: {
+    padding: '20px',
+    backgroundColor: 'white',
+    position: 'absolute',
+    top: '40px',
+    left: '0',
+    right: '0',
+    bottom: '0'
+  },
+  content: {
+    fontFamily: '-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif',
+    color: 'black'
   }
 }
 

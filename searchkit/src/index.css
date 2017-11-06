@@ -1,1 +1,153 @@
 @import url('https://cdn.jsdelivr.net/searchkit/0.9.0/theme.css');
+a {
+  color: #3498db;
+}
+
+ul {
+  font-family: monospace;
+  font-size: 1.2em;
+  list-style: none;
+  margin: 1em;
+  padding: 0;
+}
+
+.sk-layout {
+  background: #2c3e50;
+  font-family: 'Raleway', -apple-system, BlinkMacSystemFont, sans-serif !important;
+}
+
+
+.Modal:focus {
+  outline: none;
+}
+
+.sk-layout__top-bar {
+  box-shadow: none;
+}
+
+.sk-hits-grid__item {
+  position: relative;
+  text-align: center;
+}
+
+.sk-action-bar-row .sk-toggle,
+.sk-action-bar-row .sk-select,
+.sk-layout__filters {
+	display:none;
+}
+
+.my-logo img {
+	height:40px;
+	margin-right:4px;
+}
+
+.inline-tags {
+  display: none;
+  font-size: 12px;
+  text-align: left;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0 -20px;
+  padding: 20px;
+  background: white;
+  transform: translateY(calc(100% - 20px));
+  z-index: 1;
+  box-shadow: 0px 2px 0px #eee;
+}
+
+.about-link {
+  text-align: center;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #3498db;
+}
+
+.sk-layout__top-bar {
+  background: #2c3e50;
+}
+
+.sk-action-bar-row {
+  justify-content: space-between;
+}
+
+.sk-hits-grid__item:hover .inline-tags {
+  display: block;
+}
+
+.sk-layout__standalone {
+  min-height: 100vh;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.standalone-frame {
+  padding: 20px;
+  background: #fff;
+}
+
+.standalone-frame .title {
+  font-size: 1.5em;
+  display: block;
+}
+
+.standalone-labels {
+  padding: 0 4px 4px 4px;
+  margin: 20px 0;
+}
+
+.standalone-frame img {
+  margin-bottom: 1em;
+  max-width: 100%;
+  height: auto;
+}
+
+.caption-label {
+  margin-bottom: 0;
+}
+
+.caption-disclaimer {
+  font-size: 0.68rem;
+  margin-bottom: 1em;
+  padding-top: 5px;
+  display: block;
+}
+
+.caption {
+  padding: 0 4px 4px 4px;
+  margin: 20px 0;
+}
+
+@media (min-width: 480px) {
+  .standalone-frame ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 10px 30px 10px;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 200px;
+  }
+  .standalone-frame li {
+    padding-right: 20px;
+  }
+  .standalone-tags {
+    display: flex;
+  }
+  .tagset-provider {
+    display: block;
+    flex: 0 0 20%;
+  }
+}
+
+.standalone-frame>a:first-child {
+  margin-top: 40px;
+}
+
+.standalone-metadata {
+  margin-bottom: 40px;
+  border-top: 2px solid #e91e63;
+  border-bottom: 2px solid #e91e63;
+}
