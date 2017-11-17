@@ -1,21 +1,15 @@
 # nlsomr
 National Library of Scotland Optical Music Recognition
 
-tristan to check with NLS
+A hack day project by [Cogapp](http://www.cogapp.com), September 2017. Takes images of sheet music as input, converts to MusicXML and then WAV audio files, stores some metadata in ElasticSearch and displays the results using [Searchkit](https://github.com/searchkit/searchkit).
 
-check software licences
+Demo version of results online at http://labs.cogapp.com/nls-omr
 
-
-
-Optical musical recognition powered by https://github.com/audiveris n.b installation, required jdk8 did not work with jdk9.
-
-Outputs in musicXml format.
+Optical musical recognition powered by [Audiveris](https://github.com/audiveris) n.b installation, required jdk8 did not work with jdk9. This outputs in musicXml format.
 
 Source data: http://digital.nls.uk/special-collections-of-printed-music/
 
 images require minium 10px between staff lines. This requires upscaling source images x2, which will be accompished by imagemagick.
-
-
 
 ### Getting Started.
 * install imagemagik
@@ -39,35 +33,12 @@ images require minium 10px between staff lines. This requires upscaling source i
 * npm start
 * visit localhost:3000 in browser
 * To create a production build, use npm run build.
-* Upload to ocelot at /home/extranets/labs/htdocs/nls-omr
+* Upload to labs.cogapp.com
 * access at http://labs.cogapp.com/nls-omr
 
 
+#TODO#
 
-
-all items
-multi-part items index as seperate things linking to single item
-move xml_out to searchkit/public/mxml
-find bigger thumbnails
-download mxml link
-
-
-
-search on
-* title/text extraction
-* note sequence
-
-upload to labs.cogapp.com and get running
-make link on http://labs.cogapp.com/
-make info page like examples http://labs.cogapp.com/iiif-ml/
-
-
-
-
-split lines by octive to extract
-
-replace full extract with title, id of parent. lists of notes/split by octave
-
-
-output as midi?
+* don't index full MusicXML, just title, searchable text, id of parent. lists of notes/split by octave (to allow proper music search)
+* output as midi?
 
