@@ -37,7 +37,7 @@ images require minium 10px between staff lines. This requires upscaling source i
 * access at http://labs.cogapp.com/nls-omr
 
 
-# TODO
+### TODO
 
 * don't index full MusicXML, just title, searchable text, id of parent. lists of notes/split by octave (to allow proper music search)
 * output as midi?
